@@ -1,0 +1,8 @@
+{
+	"name": "latinamerica-part-one",
+	"version": "0.0.0",
+	"label": "Iberoamerica History part 1",
+	"url": "",
+	"description": "Mod centrado en el conflicto entre Mexico y Francia, conflicto importante ya que dio paso a la identidad de la Republica Mexicana.",
+	"dependencies": ["0ad>=0.0.24"]
+}

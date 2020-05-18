@@ -1,0 +1,133 @@
+{
+	"Code":"republic",
+	"Culture":"norten-mexican",
+	"Name":"Republican Liberals",
+	"Emblem":"session/portraits/emblems/emblem_mex_re.png",
+	"History":"N/A",
+	"Music":[],
+	"Factions":[{
+		"Name":"Partido Liberal",
+		"Description":"N/A",
+		"Technologies":
+			[
+				{
+					"Name":"Leyes de Reforma.",
+					"History":"",
+					"Description":"Churches pay taxes giving you 75 metal per minute."
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Benito Juarez",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"."
+				},
+				{
+					"Name":"Ignasio Zaragoza",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":""
+				},
+				{
+					"Name":"Porfilio Diaz",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"."
+				}
+			]
+		}
+	],
+	"CivBonuses":[
+		{
+			"Name":"N/A",
+			"History":"N/A",
+			"Description":"This civilization don't have Civ Bonuses for now"
+		}
+	],
+	"TeamBonuses":[
+		{
+			"Name":"N/A",
+			"History":"N/A",
+			"Description":"This civilization don't have Team Bonuses for now"
+		}
+	],
+	"Structures":[
+		{
+			"Name":"Frontier Presido",
+			"Class":"Defensive",
+			"Emblem":"",
+			"History":"",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"Frontier Defence Building. \n Train Militar units and peasents.\nMexicans don't build defensive towers, build this structure instead."
+		},
+		{
+			"Name":"Cantina",
+			"Class": "Economic,Militar",
+			"Emblem":"",
+			"History":"",
+			"Requirements":"Barracks,Stable",
+			"Phase":"",
+			"Special":"Geve food and metal.\n Train Anglo/Hispanic Outlaws."
+		},
+		{
+			"Name":"Union militar camp",
+			"Class":"Militar,Barracks,Stable",
+			"Emblem":"",
+			"History":"",
+			"Requirements":"City Phase",
+			"Special":"Train Union militar Units."
+		}
+	],
+	"WallSets":[
+		"structures/wallset_paliside",
+		"structures/wallset_stone"
+	],
+	"StartEntities":[
+		{
+			"Template":"structures/republic_civic_center"
+		},
+		{
+			"Template":"units/republic_support_peasent",
+			"Count": 5
+		},
+		{
+			"Template":"units/republic_infantry_machetero_b",
+			"Count": 5
+		},
+		{
+			"Template":"units/republic_cavalry_spearman_b"
+		}
+	],
+	"Formations":[
+		"special/formations/null",
+		"special/formations/line_open",
+		"special/formations/battel_line"
+	],
+	"AINames":[
+		"Benito Juarez",
+		"Ignasio Zaragoza",
+		"Porfilio Diaz",
+		"Miguel Negrete",
+		"Luis Ghilardi",
+		"Ignacio Comonfort",
+		"Servando Canales",
+		"Felipe Berriozabal",
+		"Mariano Escobedo",
+		"Juan Cortina",
+		"Juan N. Mendez",
+		"Juan Crisostomo Bonilla",
+		"Juan Francisco Lucas",
+		"Jesus Gonzalez Ortega"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_10": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

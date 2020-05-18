@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Bandera del vecino que se la pasa chingando">
+      <animations>
+        <animation file="other/flag_animation.dae" name="Idle" speed="30"/>
+      </animations>
+      <mesh>skeletal/flag.dae</mesh>
+      <textures><texture file="props/flags/irland_flag.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>

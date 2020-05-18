@@ -1,0 +1,142 @@
+{
+	"Code":"monarc",
+	"Culture":"center-mexican",
+	"Name":"Monarchists",
+	"Emblem":"session/portraits/emblems/emblem_mex_mon.png",
+	"History":"N/A",
+	"Music":[],
+	"Factions":[{
+		"Name":"Partido Conservador",
+		"Description":"N/A",
+		"Technologies":
+			[
+				{
+					"Name":".",
+					"History":"",
+					"Description":"."
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name":"",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"."
+				},
+				{
+					"Name":"",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":""
+				},
+				{
+					"Name":"",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"."
+				}
+			]
+		}
+	],
+	"CivBonuses":[
+		{
+			"Name":"N/A",
+			"History":"N/A",
+			"Description":"This civilization don't have Civ Bonuses for now"
+		}
+	],
+	"TeamBonuses":[
+		{
+			"Name":"N/A",
+			"History":"N/A",
+			"Description":"This civilization don't have Team Bonuses for now"
+		}
+	],
+	"Structures":[
+		{
+			"Name":"Presido",
+			"Class":"Defensive",
+			"Emblem":"",
+			"History":"",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"Defence Building. \n Train Militar units and peasents.\nMexicans don't build defensive towers, build this structure instead."
+		},
+		{
+			"Name":"Pulqueria",
+			"Class": "Economic,Militar",
+			"Emblem":"",
+			"History":"",
+			"Requirements":"Barracks,Stable",
+			"Phase":"",
+			"Special":"Geve food and metal.\n Train Hispanic Outlaws."
+		},
+		{
+			"Name":"European embassy",
+			"Class":"Militar,Barracks,Stable",
+			"Emblem":"",
+			"History":"",
+			"Requirements":"City Phase",
+			"Special":"Bring european volunteers."
+		},
+		{
+			"Name":"Chaputepec Castle",
+			"Class":"Militar,Barracks,Stable,Defensive,ArtilleryFoundry",
+			"Emblem":"",
+			"History":"",
+			"Requirements":"City Phase",
+			"Phase":"City Phase",
+			"Special":"A Castle, create all kinds of units\nCan hold 75 units"
+		}
+	],
+	"WallSets":[
+		"structures/wallset_paliside",
+		"structures/wallset_stone"
+	],
+	"StartEntities":[
+		{
+			"Template":"structures/monarchists_civic_center"
+		},
+		{
+			"Template":"units/monarchists_support_chilango",
+			"Count": 5
+		},
+		{
+			"Template":"units/monarchists_infantry_zovau_b",
+			"Count": 5
+		},
+		{
+			"Template":"units/monarchists_cavalry_spearman_b"
+		}
+	],
+	"Formations":[
+		"special/formations/null",
+		"special/formations/line_open",
+		"special/formations/battel_line"
+	],
+	"AINames":[
+		"Maximilian I of Mexico",
+		"Refugio Tanori",
+		"Emilio Lanberg",
+		"Joaquin Miramon",
+		"Miguel Miramon",
+		"Leonardo Marquez",
+		"Tomas Mejia",
+		"Tomas O'Horan",
+		"Carl Von Khevenhüller-Metsch",
+		"Alphons Von Kodolich",
+		"Armand Alexandre de Castagny",
+		"Charles Ferdinand Latrille",
+		"Constant Tydgadt",
+		"Alfred Van Der Smissen"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_10": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}
