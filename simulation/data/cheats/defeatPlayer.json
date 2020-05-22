@@ -1,0 +1,8 @@
+{
+	"Name": "¡Llego el lechero!",
+	"Data": {
+		"Action": "defeatplayer",
+		"DefaultParameter": 2,
+		"isNumeric": true
+	}
+}

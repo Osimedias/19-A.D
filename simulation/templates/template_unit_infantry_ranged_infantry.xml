@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+  <Armour>
+    <Hack>1</Hack>
+    <Pierce>1</Pierce>
+    <Crush>0</Crush>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>71.0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>60</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PrepareTime>640</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
+      <Projectile>
+        <Speed>350.0</Speed>
+        <Gravity>39.81</Gravity>
+        <Spread>5.0</Spread>
+      </Projectile>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <wood>150</wood>
+      <metal>60</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <VisibleClasses datatype="tokens">Ponder</VisibleClasses>
+    <GenericName>Range Infantry</GenericName>
+  </Identity>
+  <Loot>
+    <wood>5</wood>
+  </Loot>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.6</WalkSpeed>
+  </UnitMotion>
+</Entity>

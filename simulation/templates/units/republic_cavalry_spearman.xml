@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_spearman">
+  <Identity>
+    <Civ>republic</Civ>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/republic_cavalry_spearman</SelectionGroupName>
+    <GenericName>Jalisco Lancer</GenericName>
+    <SpecificName>Lancero de Jalisco</SpecificName>
+    <Icon>units/rome_cavalry_spearman.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/republica/cavalry_spearman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>
