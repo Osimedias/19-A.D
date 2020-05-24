@@ -47,6 +47,7 @@
     <BatchTimeModifier>1.0</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_female_citizen_house
+      units/{civ}_support_peasent_citizen
     </Entities>
     <Technologies datatype="tokens">
       health_females_01

@@ -35,10 +35,9 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_cavalry_swordsman_b
-      units/{civ}_cavalry_spearman_b
-      units/{civ}_cavalry_javelinist_b
-      units/{civ}_cavalry_archer_b
+      units/{civ}_cavalry_swordsman
+      units/{civ}_cavalry_spearman
+      units/{civ}_cavalry_dragun
     </Entities>
     <Technologies datatype="tokens">
       heal_barracks

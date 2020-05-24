@@ -5,7 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/celt_trader.dae</mesh>
       <props>
-        <prop actor="units/republicans/peasent_r.xml" attachpoint="trader"/>
+        <prop actor="units/republica/peasent_r.xml" attachpoint="trader"/>
         <prop actor="units/celts/trader_h.xml" attachpoint="donkey"/>
       </props>
       <textures>

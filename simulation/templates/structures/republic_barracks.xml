@@ -6,16 +6,12 @@
       <wood>300</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Square width="22.0" depth="22.0"/>
-    <Height>5.0</Height>
-  </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>republic</Civ>
-    <SpecificName>Cuarteles de Frontera</SpecificName>
+    <SpecificName>Cuarteles</SpecificName>
   </Identity>
   <Loot>
     <wood>60</wood>

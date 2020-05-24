@@ -33,39 +33,45 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="545.998" y="314.582" z="212.94"/>
-		<Rotation angle="0.489763"/>
-		<Declination angle="0.647512"/>
+		<Position x="367.864" y="333.977" z="508.944"/>
+		<Rotation angle="2.01507"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
   "CircularMap": true,
-  "Description": "Give an interesting description of your map.",
-  "Name": "Unnamed map",
+  "Description": "Sandbox Map for the Mexican Republic.",
+  "Name": "Paso del Norte",
   "PlayerData": [
+    null,
     {
-      "Civ": "athen"
+      "Civ": "republic",
+      "Color": {
+        "b": 50,
+        "g": 155,
+        "r": 0
+      }
     },
     {
-      "Civ": "cart"
+      "Civ": "republic"
     },
     {
-      "Civ": "gaul"
+      "Civ": "republic"
     },
     {
-      "Civ": "iber"
+      "Civ": "republic"
     },
     {
-      "Civ": "mace"
+      "Civ": "republic"
     },
     {
-      "Civ": "pers"
+      "Civ": "republic"
     },
     {
-      "Civ": "rome"
+      "Civ": "republic"
     },
     {
-      "Civ": "spart"
+      "Civ": "republic"
     }
   ],
   "VictoryConditions": [
@@ -76,35 +82,35 @@
 	<Entities>
 		<Entity uid="11">
 			<Template>structures/republic_storehouse</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="433.10361" z="344.90265"/>
 			<Orientation y="1.63761"/>
 			<Actor seed="37988"/>
 		</Entity>
 		<Entity uid="12">
 			<Template>structures/republic_storehouse</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="430.275" z="321.56473"/>
 			<Orientation y="1.86507"/>
 			<Actor seed="32097"/>
 		</Entity>
 		<Entity uid="13">
 			<Template>structures/republic_farmstead</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="408.68494" z="320.5485"/>
 			<Orientation y="1.33373"/>
 			<Actor seed="58773"/>
 		</Entity>
 		<Entity uid="14">
 			<Template>structures/republic_farmstead</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="414.53391" z="340.40772"/>
 			<Orientation y="2.041"/>
 			<Actor seed="22391"/>
 		</Entity>
 		<Entity uid="15">
 			<Template>structures/republic_farmstead</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="401.86912" z="331.66697"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45510"/>
@@ -174,56 +180,56 @@
 		</Entity>
 		<Entity uid="25">
 			<Template>structures/republic_stable</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="452.98722" z="360.59638"/>
 			<Orientation y="1.30806"/>
 			<Actor seed="43722"/>
 		</Entity>
 		<Entity uid="26">
 			<Template>structures/republic_stable</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="459.78922" z="389.05146"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17577"/>
 		</Entity>
 		<Entity uid="27">
 			<Template>structures/republic_stable</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="486.48011" z="396.1894"/>
 			<Orientation y="-2.61582"/>
 			<Actor seed="52412"/>
 		</Entity>
 		<Entity uid="28">
 			<Template>structures/republic_workshop</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="457.51743" z="307.82236"/>
 			<Orientation y="1.39817"/>
 			<Actor seed="38194"/>
 		</Entity>
 		<Entity uid="29">
 			<Template>structures/republic_workshop</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="480.71424" z="311.49256"/>
 			<Orientation y="1.50554"/>
 			<Actor seed="56579"/>
 		</Entity>
 		<Entity uid="31">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="451.75763" z="462.08725"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5695"/>
 		</Entity>
 		<Entity uid="32">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="421.13956" z="452.16965"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22927"/>
 		</Entity>
 		<Entity uid="33">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="431.26807" z="483.12555"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11689"/>
@@ -237,56 +243,56 @@
 		</Entity>
 		<Entity uid="35">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="472.14661" z="482.10795"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46440"/>
 		</Entity>
 		<Entity uid="36">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="501.07721" z="482.62836"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11956"/>
 		</Entity>
 		<Entity uid="37">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="490.11744" z="507.62598"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44065"/>
 		</Entity>
 		<Entity uid="38">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="466.3404" z="526.70276"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52824"/>
 		</Entity>
 		<Entity uid="39">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="429.50101" z="522.21631"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42325"/>
 		</Entity>
 		<Entity uid="40">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="406.57929" z="502.68055"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17436"/>
 		</Entity>
 		<Entity uid="41">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="399.92896" z="474.39631"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13299"/>
 		</Entity>
 		<Entity uid="42">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="399.65641" z="434.15058"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3019"/>
@@ -300,203 +306,203 @@
 		</Entity>
 		<Entity uid="44">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="364.6012" z="473.0813"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36553"/>
 		</Entity>
 		<Entity uid="45">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="374.85865" z="497.51078"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44499"/>
 		</Entity>
 		<Entity uid="46">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="386.64557" z="524.88868"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5200"/>
 		</Entity>
 		<Entity uid="47">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="411.2577" z="541.85224"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18439"/>
 		</Entity>
 		<Entity uid="48">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="435.77515" z="560.57593"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="30248"/>
 		</Entity>
 		<Entity uid="49">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="476.06333" z="560.0315"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42335"/>
 		</Entity>
 		<Entity uid="50">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="493.8592" z="538.80164"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8901"/>
 		</Entity>
 		<Entity uid="51">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="516.69935" z="517.60157"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64934"/>
 		</Entity>
 		<Entity uid="52">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="531.63349" z="486.1587"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28787"/>
 		</Entity>
 		<Entity uid="53">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="456.90778" z="581.94056"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19073"/>
 		</Entity>
 		<Entity uid="54">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="480.54053" z="597.16028"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="20921"/>
 		</Entity>
 		<Entity uid="55">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="502.87879" z="567.43104"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="35165"/>
 		</Entity>
 		<Entity uid="56">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="526.23981" z="542.88196"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="30918"/>
 		</Entity>
 		<Entity uid="57">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="552.84687" z="521.51197"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2305"/>
 		</Entity>
 		<Entity uid="58">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="567.34577" z="493.48566"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37769"/>
 		</Entity>
 		<Entity uid="59">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="551.75025" z="476.86707"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41684"/>
 		</Entity>
 		<Entity uid="60">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="380.89368" z="417.36554"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45165"/>
 		</Entity>
 		<Entity uid="61">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="361.74415" z="437.63807"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27756"/>
 		</Entity>
 		<Entity uid="62">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="340.32764" z="454.45127"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9314"/>
 		</Entity>
 		<Entity uid="63">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="332.56684" z="498.15958"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44478"/>
 		</Entity>
 		<Entity uid="64">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="312.72574" z="475.55204"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14031"/>
 		</Entity>
 		<Entity uid="65">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="314.36478" z="438.2747"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38353"/>
 		</Entity>
 		<Entity uid="66">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="339.84824" z="417.06971"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34362"/>
 		</Entity>
 		<Entity uid="67">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="360.49958" z="397.94965"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61530"/>
 		</Entity>
 		<Entity uid="68">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="339.92933" z="378.36603"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38764"/>
 		</Entity>
 		<Entity uid="69">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="315.40983" z="397.16095"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4361"/>
 		</Entity>
 		<Entity uid="70">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="297.75074" z="413.37681"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13560"/>
 		</Entity>
 		<Entity uid="71">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="279.50916" z="434.51185"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37471"/>
 		</Entity>
 		<Entity uid="72">
 			<Template>structures/republic_field</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="286.3819" z="464.70533"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8065"/>
@@ -2008,56 +2014,56 @@
 		</Entity>
 		<Entity uid="301">
 			<Template>structures/republic_farmstead</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="263.5196" z="457.21036"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60567"/>
 		</Entity>
 		<Entity uid="302">
 			<Template>structures/republic_farmstead</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="331.98035" z="497.84833"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50431"/>
 		</Entity>
 		<Entity uid="303">
 			<Template>structures/republic_farmstead</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="388.31312" z="527.91828"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="1850"/>
 		</Entity>
 		<Entity uid="304">
 			<Template>structures/republic_farmstead</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="431.84256" z="558.3321"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="56030"/>
 		</Entity>
 		<Entity uid="305">
 			<Template>structures/republic_farmstead</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="452.76563" z="497.57944"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37505"/>
 		</Entity>
 		<Entity uid="306">
 			<Template>structures/republic_corral</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="425.32093" z="368.76001"/>
 			<Orientation y="-0.99785"/>
 			<Actor seed="37306"/>
 		</Entity>
 		<Entity uid="307">
 			<Template>structures/republic_corral</Template>
-			<Player>0</Player>
-			<Position x="411.72944" z="359.775"/>
+			<Player>1</Player>
+			<Position x="411.64493" z="359.85825"/>
 			<Orientation y="-0.50213"/>
 			<Actor seed="33976"/>
 		</Entity>
 		<Entity uid="308">
 			<Template>structures/republic_corral</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="366.58844" z="309.27344"/>
 			<Orientation y="-0.88819"/>
 			<Actor seed="43378"/>
@@ -2078,9 +2084,9 @@
 		</Entity>
 		<Entity uid="311">
 			<Template>structures/republic_fortress</Template>
-			<Player>0</Player>
-			<Position x="881.13556" z="398.211"/>
-			<Orientation y="0.66306"/>
+			<Player>1</Player>
+			<Position x="890.1172" z="398.17334"/>
+			<Orientation y="-1.9045"/>
 			<Actor seed="13180"/>
 		</Entity>
 		<Entity uid="312">
@@ -4014,6 +4020,316 @@
 			<Position x="63.05411" z="657.9734"/>
 			<Orientation y="-0.24108"/>
 			<Actor seed="54816"/>
+		</Entity>
+		<Entity uid="588">
+			<Template>units/republic_cavalry_spearman</Template>
+			<Player>1</Player>
+			<Position x="705.00684" z="303.97474"/>
+			<Orientation y="-1.31608"/>
+			<Actor seed="42532"/>
+		</Entity>
+		<Entity uid="589">
+			<Template>units/republic_cavalry_spearman</Template>
+			<Player>1</Player>
+			<Position x="706.03492" z="308.42765"/>
+			<Orientation y="-1.64498"/>
+			<Actor seed="6036"/>
+		</Entity>
+		<Entity uid="590">
+			<Template>units/republic_cavalry_spearman</Template>
+			<Player>1</Player>
+			<Position x="696.74299" z="306.23584"/>
+			<Orientation y="3.02932"/>
+			<Actor seed="50765"/>
+		</Entity>
+		<Entity uid="591">
+			<Template>units/republic_cavalry_spearman</Template>
+			<Player>1</Player>
+			<Position x="700.42414" z="301.72654"/>
+			<Orientation y="-2.5136"/>
+			<Actor seed="13623"/>
+		</Entity>
+		<Entity uid="592">
+			<Template>units/republic_cavalry_spearman</Template>
+			<Player>1</Player>
+			<Position x="701.43396" z="313.42762"/>
+			<Orientation y="-1.44935"/>
+			<Actor seed="2441"/>
+		</Entity>
+		<Entity uid="593">
+			<Template>units/republic_cavalry_spearman</Template>
+			<Player>1</Player>
+			<Position x="707.47895" z="318.49183"/>
+			<Orientation y="-1.20406"/>
+			<Actor seed="14334"/>
+		</Entity>
+		<Entity uid="594">
+			<Template>units/republic_cavalry_spearman</Template>
+			<Player>1</Player>
+			<Position x="698.52656" z="319.52674"/>
+			<Orientation y="-1.37404"/>
+			<Actor seed="16113"/>
+		</Entity>
+		<Entity uid="595">
+			<Template>units/republic_cavalry_spearman</Template>
+			<Player>1</Player>
+			<Position x="694.44947" z="292.46024"/>
+			<Orientation y="-0.04761"/>
+			<Actor seed="31716"/>
+		</Entity>
+		<Entity uid="635">
+			<Template>structures/palisades_straight</Template>
+			<Player>1</Player>
+			<Position x="860.73578" z="409.4676"/>
+			<Orientation y="-1.20804"/>
+			<Obstruction group="638"/>
+			<Actor seed="7118"/>
+		</Entity>
+		<Entity uid="636">
+			<Template>structures/palisades_straight</Template>
+			<Player>1</Player>
+			<Position x="852.87995" z="414.68735"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32965"/>
+		</Entity>
+		<Entity uid="637">
+			<Template>structures/palisades_straight</Template>
+			<Player>1</Player>
+			<Position x="844.33814" z="418.72867"/>
+			<Orientation y="-1.49405"/>
+			<Obstruction group="639"/>
+			<Actor seed="27292"/>
+		</Entity>
+		<Entity uid="638">
+			<Template>structures/palisades_tower</Template>
+			<Player>1</Player>
+			<Position x="866.41785" z="407.2747"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53684"/>
+		</Entity>
+		<Entity uid="639">
+			<Template>structures/palisades_tower</Template>
+			<Player>1</Player>
+			<Position x="838.57648" z="418.66178"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4710"/>
+		</Entity>
+		<Entity uid="640">
+			<Template>structures/palisades_watchtower</Template>
+			<Player>1</Player>
+			<Position x="845.24561" z="412.84211"/>
+			<Orientation y="-0.14968"/>
+			<Actor seed="45036"/>
+		</Entity>
+		<Entity uid="641">
+			<Template>structures/palisades_straight</Template>
+			<Player>1</Player>
+			<Position x="839.10352" z="413.52976"/>
+			<Orientation y="3.03693"/>
+			<Obstruction group="639" group2="642"/>
+			<Actor seed="10265"/>
+		</Entity>
+		<Entity uid="642">
+			<Template>structures/palisades_tower</Template>
+			<Player>1</Player>
+			<Position x="840.39631" z="406.93769"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54807"/>
+		</Entity>
+		<Entity uid="643">
+			<Template>structures/palisades_gate</Template>
+			<Player>1</Player>
+			<Position x="835.42084" z="401.86374"/>
+			<Orientation y="2.35621"/>
+			<Obstruction group="642" group2="644"/>
+			<Actor seed="45047"/>
+		</Entity>
+		<Entity uid="644">
+			<Template>structures/palisades_tower</Template>
+			<Player>1</Player>
+			<Position x="830.18812" z="396.46381"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38249"/>
+		</Entity>
+		<Entity uid="645">
+			<Template>structures/palisades_short</Template>
+			<Player>1</Player>
+			<Position x="828.15784" z="394.07932"/>
+			<Orientation y="2.35621"/>
+			<Obstruction group="644"/>
+			<Actor seed="28685"/>
+		</Entity>
+		<Entity uid="646">
+			<Template>structures/palisades_outpost</Template>
+			<Player>1</Player>
+			<Position x="829.594" z="389.06897"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49369"/>
+		</Entity>
+		<Entity uid="647">
+			<Template>structures/palisades_long</Template>
+			<Player>1</Player>
+			<Position x="821.73322" z="387.80842"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37699"/>
+		</Entity>
+		<Entity uid="648">
+			<Template>structures/palisades_long</Template>
+			<Player>1</Player>
+			<Position x="876.56397" z="372.35758"/>
+			<Orientation y="2.35621"/>
+			<Obstruction group="650"/>
+			<Actor seed="22111"/>
+		</Entity>
+		<Entity uid="649">
+			<Template>structures/palisades_long</Template>
+			<Player>1</Player>
+			<Position x="864.64728" z="367.64344"/>
+			<Orientation y="3.05405"/>
+			<Obstruction group="650" group2="651"/>
+			<Actor seed="9611"/>
+		</Entity>
+		<Entity uid="650">
+			<Template>structures/palisades_tower</Template>
+			<Player>1</Player>
+			<Position x="871.47669" z="368.00806"/>
+			<Orientation y="-0.25498"/>
+			<Actor seed="29033"/>
+		</Entity>
+		<Entity uid="651">
+			<Template>structures/palisades_tower</Template>
+			<Player>1</Player>
+			<Position x="856.7707" z="366.8961"/>
+			<Orientation y="1.48321"/>
+			<Actor seed="33205"/>
+		</Entity>
+		<Entity uid="652">
+			<Template>structures/palisades_straight</Template>
+			<Player>1</Player>
+			<Position x="820.61823" z="378.74601"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12683"/>
+		</Entity>
+		<Entity uid="653">
+			<Template>structures/palisades_straight</Template>
+			<Player>1</Player>
+			<Position x="827.79432" z="371.63733"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65094"/>
+		</Entity>
+		<Entity uid="654">
+			<Template>structures/palisades_straight</Template>
+			<Player>1</Player>
+			<Position x="836.00275" z="366.85111"/>
+			<Orientation y="1.86744"/>
+			<Actor seed="56728"/>
+		</Entity>
+		<Entity uid="655">
+			<Template>structures/palisades_straight</Template>
+			<Player>1</Player>
+			<Position x="845.3819" z="367.253"/>
+			<Orientation y="1.21491"/>
+			<Obstruction group="657"/>
+			<Actor seed="49950"/>
+		</Entity>
+		<Entity uid="656">
+			<Template>structures/palisades_short</Template>
+			<Player>1</Player>
+			<Position x="853.27198" z="368.83973"/>
+			<Orientation y="-2.7307"/>
+			<Obstruction group="651" group2="657"/>
+			<Actor seed="9010"/>
+		</Entity>
+		<Entity uid="657">
+			<Template>structures/palisades_tower</Template>
+			<Player>1</Player>
+			<Position x="850.10303" z="369.81666"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64266"/>
+		</Entity>
+		<Entity uid="658">
+			<Template>structures/rome_tent</Template>
+			<Player>1</Player>
+			<Position x="863.22907" z="374.06055"/>
+			<Orientation y="-0.19071"/>
+			<Actor seed="36051"/>
+		</Entity>
+		<Entity uid="659">
+			<Template>structures/rome_tent</Template>
+			<Player>1</Player>
+			<Position x="853.22516" z="377.78647"/>
+			<Orientation y="-1.92743"/>
+			<Actor seed="60537"/>
+		</Entity>
+		<Entity uid="660">
+			<Template>structures/rome_tent</Template>
+			<Player>1</Player>
+			<Position x="840.57374" z="374.1533"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17681"/>
+		</Entity>
+		<Entity uid="661">
+			<Template>structures/rome_tent</Template>
+			<Player>1</Player>
+			<Position x="857.01722" z="398.6969"/>
+			<Orientation y="-1.75306"/>
+			<Actor seed="65335"/>
+		</Entity>
+		<Entity uid="662">
+			<Template>structures/rome_tent</Template>
+			<Player>1</Player>
+			<Position x="848.66004" z="405.13855"/>
+			<Orientation y="2.28011"/>
+			<Actor seed="32362"/>
+		</Entity>
+		<Entity uid="663">
+			<Template>structures/rome_tent</Template>
+			<Player>1</Player>
+			<Position x="828.5984" z="379.7175"/>
+			<Orientation y="0.41063"/>
+			<Actor seed="43630"/>
+		</Entity>
+		<Entity uid="665">
+			<Template>units/republic_infantry_fusiler</Template>
+			<Player>1</Player>
+			<Position x="699.25568" z="333.34223"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34245"/>
+		</Entity>
+		<Entity uid="666">
+			<Template>units/republic_infantry_usa_private</Template>
+			<Player>1</Player>
+			<Position x="702.64301" z="337.58027"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9262"/>
+		</Entity>
+		<Entity uid="667">
+			<Template>units/republic_infantry_usa_private</Template>
+			<Player>1</Player>
+			<Position x="705.53492" z="339.81342"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5073"/>
+		</Entity>
+		<Entity uid="668">
+			<Template>units/republic_infantry_usa_private</Template>
+			<Player>1</Player>
+			<Position x="706.35639" z="337.58848"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64509"/>
+		</Entity>
+		<Entity uid="669">
+			<Template>units/republic_support_peasent</Template>
+			<Player>1</Player>
+			<Position x="705.98469" z="331.34815"/>
+			<Orientation y="1.04809"/>
+			<Actor seed="42846"/>
+		</Entity>
+		<Entity uid="670">
+			<Template>units/republic_support_peasent</Template>
+			<Player>1</Player>
+			<Position x="707.63923" z="326.45322"/>
+			<Orientation y="0.51786"/>
+			<Actor seed="1939"/>
 		</Entity>
 	</Entities>
 	<Paths/>

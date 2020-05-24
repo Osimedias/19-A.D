@@ -15,9 +15,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_cavalry_dragoon_merc_b
-      units/{civ}_infantry_fusiler_merc_b
-      units/{civ}_cavalry_firbustero_merc_b
+      units/{civ}_cavalry_usa_dragoon
+      units/{civ}_infantry_usa_private
+      units/{civ}_cavalry_usa_firbustero
     </Entities>
   </ProductionQueue>
   <VisualActor>
