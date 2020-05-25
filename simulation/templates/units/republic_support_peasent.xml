@@ -3,6 +3,7 @@
   <Identity>
     <Civ>republic</Civ>
     <SpecificName>Campesino</SpecificName>
+    <GenericName>Peasant</GenericName>
     <Icon>units/global_slave.png</Icon>
   </Identity>
   <VisualActor>

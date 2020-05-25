@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_dragon">
+  <Identity>
+    <Civ>republic</Civ>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/republic_cavalry_dragon</SelectionGroupName>
+    <SpecificName>Dragon</SpecificName>
+    <Icon>units/athen_cavalry_javelinist.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/republica/cavalry_dragon_m.xml</Actor>
+  </VisualActor>
+</Entity>

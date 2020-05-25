@@ -37,7 +37,7 @@
     <Entities datatype="tokens">
       units/{civ}_cavalry_swordsman
       units/{civ}_cavalry_spearman
-      units/{civ}_cavalry_dragun
+      units/{civ}_cavalry_dragon
     </Entities>
     <Technologies datatype="tokens">
       heal_barracks
