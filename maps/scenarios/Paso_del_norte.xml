@@ -33,8 +33,8 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="367.864" y="333.977" z="508.944"/>
-		<Rotation angle="2.01507"/>
+		<Position x="147.314" y="274.526" z="120.753"/>
+		<Rotation angle="-0.229692"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
@@ -43,35 +43,49 @@
   "Description": "Sandbox Map for the Mexican Republic.",
   "Name": "Paso del Norte",
   "PlayerData": [
-    null,
     {
       "Civ": "republic",
       "Color": {
         "b": 50,
         "g": 155,
         "r": 0
-      }
+      },
+      "Name": "Juarez Forces",
+      "StartingCamera": {
+        "Position": {
+          "x": 710.391,
+          "y": 178.087,
+          "z": 322.245
+        },
+        "Rotation": {
+          "x": 35,
+          "y": 54.9625,
+          "z": -0.00000743559
+        }
+      },
+      "Team": 0
     },
     {
-      "Civ": "republic"
-    },
-    {
-      "Civ": "republic"
-    },
-    {
-      "Civ": "republic"
-    },
-    {
-      "Civ": "republic"
-    },
-    {
-      "Civ": "republic"
-    },
-    {
-      "Civ": "republic"
-    },
-    {
-      "Civ": "republic"
+      "Civ": "republic",
+      "Color": {
+        "b": 255,
+        "g": 16,
+        "r": 0
+      },
+      "Name": "USA Gate",
+      "StartingCamera": {
+        "Position": {
+          "x": 116.425,
+          "y": 179.679,
+          "z": 252.564
+        },
+        "Rotation": {
+          "x": 35.0006,
+          "y": -86.9591,
+          "z": -0.000611586
+        }
+      },
+      "Team": 0
     }
   ],
   "VictoryConditions": [
@@ -4330,6 +4344,677 @@
 			<Position x="707.63923" z="326.45322"/>
 			<Orientation y="0.51786"/>
 			<Actor seed="1939"/>
+		</Entity>
+		<Entity uid="671">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="717.45612" z="323.96668"/>
+			<Orientation y="-1.50721"/>
+			<Actor seed="58295"/>
+		</Entity>
+		<Entity uid="672">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="715.77247" z="305.08667"/>
+			<Orientation y="-3.03844"/>
+			<Actor seed="49494"/>
+		</Entity>
+		<Entity uid="673">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="691.4361" z="346.2649"/>
+			<Orientation y="-0.04517"/>
+			<Actor seed="45663"/>
+		</Entity>
+		<Entity uid="674">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="658.90857" z="345.89423"/>
+			<Orientation y="1.3397"/>
+			<Actor seed="44687"/>
+		</Entity>
+		<Entity uid="675">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="656.69636" z="326.44352"/>
+			<Orientation y="0.0069"/>
+			<Actor seed="56457"/>
+		</Entity>
+		<Entity uid="676">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="656.36976" z="296.88178"/>
+			<Orientation y="-1.52076"/>
+			<Actor seed="20095"/>
+		</Entity>
+		<Entity uid="677">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="671.96961" z="296.40247"/>
+			<Orientation y="-3.10563"/>
+			<Actor seed="16720"/>
+		</Entity>
+		<Entity uid="678">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="692.24555" z="296.13453"/>
+			<Orientation y="1.31595"/>
+			<Actor seed="58149"/>
+		</Entity>
+		<Entity uid="679">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="691.81574" z="322.55756"/>
+			<Orientation y="0.66297"/>
+			<Actor seed="42353"/>
+		</Entity>
+		<Entity uid="680">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="690.54664" z="280.8466"/>
+			<Orientation y="-1.43377"/>
+			<Actor seed="29882"/>
+		</Entity>
+		<Entity uid="681">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="744.24091" z="285.37674"/>
+			<Orientation y="0.01984"/>
+			<Actor seed="5146"/>
+		</Entity>
+		<Entity uid="682">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="746.06055" z="262.14759"/>
+			<Orientation y="-0.03354"/>
+			<Actor seed="43364"/>
+		</Entity>
+		<Entity uid="683">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="721.4079" z="249.9394"/>
+			<Orientation y="1.54294"/>
+			<Actor seed="39425"/>
+		</Entity>
+		<Entity uid="684">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="699.92988" z="229.16492"/>
+			<Orientation y="-2.98244"/>
+			<Actor seed="3774"/>
+		</Entity>
+		<Entity uid="685">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="675.65345" z="236.53614"/>
+			<Orientation y="2.95618"/>
+			<Actor seed="2264"/>
+		</Entity>
+		<Entity uid="686">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="644.49592" z="239.72928"/>
+			<Orientation y="-2.92792"/>
+			<Actor seed="11019"/>
+		</Entity>
+		<Entity uid="687">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="604.27192" z="240.39527"/>
+			<Orientation y="2.53458"/>
+			<Actor seed="38965"/>
+		</Entity>
+		<Entity uid="688">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="585.17042" z="240.28336"/>
+			<Orientation y="-1.76006"/>
+			<Actor seed="33404"/>
+		</Entity>
+		<Entity uid="689">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="536.14118" z="258.58347"/>
+			<Orientation y="-1.98215"/>
+			<Actor seed="266"/>
+		</Entity>
+		<Entity uid="690">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="531.58027" z="370.10184"/>
+			<Orientation y="-2.85839"/>
+			<Actor seed="1767"/>
+		</Entity>
+		<Entity uid="691">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="545.41462" z="394.07792"/>
+			<Orientation y="-1.97437"/>
+			<Actor seed="38470"/>
+		</Entity>
+		<Entity uid="692">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="598.19208" z="405.49119"/>
+			<Orientation y="-1.45939"/>
+			<Actor seed="51026"/>
+		</Entity>
+		<Entity uid="694">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="566.1894" z="389.87647"/>
+			<Orientation y="0.27288"/>
+			<Actor seed="9090"/>
+		</Entity>
+		<Entity uid="695">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="622.30738" z="382.59089"/>
+			<Orientation y="-1.26471"/>
+			<Actor seed="62459"/>
+		</Entity>
+		<Entity uid="696">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="632.18769" z="400.10056"/>
+			<Orientation y="-1.67122"/>
+			<Actor seed="60288"/>
+		</Entity>
+		<Entity uid="697">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="678.56098" z="434.28461"/>
+			<Orientation y="-1.26474"/>
+			<Actor seed="6133"/>
+		</Entity>
+		<Entity uid="698">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="666.68763" z="435.70063"/>
+			<Orientation y="-1.79635"/>
+			<Actor seed="34285"/>
+		</Entity>
+		<Entity uid="699">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="691.49488" z="434.63373"/>
+			<Orientation y="-1.73217"/>
+			<Actor seed="51812"/>
+		</Entity>
+		<Entity uid="700">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="724.87989" z="420.4308"/>
+			<Orientation y="-1.37735"/>
+			<Actor seed="29095"/>
+		</Entity>
+		<Entity uid="701">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="746.3379" z="408.46515"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63874"/>
+		</Entity>
+		<Entity uid="702">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="770.0716" z="387.8461"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44563"/>
+		</Entity>
+		<Entity uid="703">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="771.47516" z="360.12146"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43962"/>
+		</Entity>
+		<Entity uid="704">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="749.06794" z="336.93268"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2932"/>
+		</Entity>
+		<Entity uid="705">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="688.1084" z="367.59845"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33879"/>
+		</Entity>
+		<Entity uid="706">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="680.74201" z="367.55387"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11082"/>
+		</Entity>
+		<Entity uid="707">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="673.50251" z="367.06107"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20719"/>
+		</Entity>
+		<Entity uid="708">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="667.12409" z="366.53095"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39490"/>
+		</Entity>
+		<Entity uid="709">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="659.09852" z="366.44034"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56147"/>
+		</Entity>
+		<Entity uid="710">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="650.69013" z="367.38294"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45131"/>
+		</Entity>
+		<Entity uid="711">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="643.07154" z="367.62314"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22126"/>
+		</Entity>
+		<Entity uid="712">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="635.24555" z="368.61255"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34021"/>
+		</Entity>
+		<Entity uid="713">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="628.83588" z="369.63447"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18099"/>
+		</Entity>
+		<Entity uid="714">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="655.55298" z="379.85233"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15753"/>
+		</Entity>
+		<Entity uid="715">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="655.95093" z="391.52924"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29751"/>
+		</Entity>
+		<Entity uid="716">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="655.9101" z="400.71183"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49704"/>
+		</Entity>
+		<Entity uid="717">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="701.31922" z="373.69788"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42645"/>
+		</Entity>
+		<Entity uid="718">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="700.90302" z="381.04014"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56990"/>
+		</Entity>
+		<Entity uid="719">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="700.79004" z="387.71402"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20824"/>
+		</Entity>
+		<Entity uid="720">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="670.7743" z="321.42814"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63422"/>
+		</Entity>
+		<Entity uid="721">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="635.54627" z="314.88974"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62690"/>
+		</Entity>
+		<Entity uid="722">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="636.44764" z="332.5246"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22011"/>
+		</Entity>
+		<Entity uid="723">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="619.04438" z="332.16736"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59985"/>
+		</Entity>
+		<Entity uid="724">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="618.12232" z="313.89094"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15924"/>
+		</Entity>
+		<Entity uid="725">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="597.25141" z="333.16953"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63208"/>
+		</Entity>
+		<Entity uid="726">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="596.4701" z="315.57667"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38989"/>
+		</Entity>
+		<Entity uid="727">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="577.326" z="334.19761"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26687"/>
+		</Entity>
+		<Entity uid="728">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="578.52814" z="315.62726"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43208"/>
+		</Entity>
+		<Entity uid="729">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="547.32679" z="300.59076"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52922"/>
+		</Entity>
+		<Entity uid="730">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="570.7859" z="278.19675"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58963"/>
+		</Entity>
+		<Entity uid="731">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="610.16858" z="280.49106"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56192"/>
+		</Entity>
+		<Entity uid="732">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="615.43628" z="258.37476"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40799"/>
+		</Entity>
+		<Entity uid="733">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="635.33918" z="256.65641"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13256"/>
+		</Entity>
+		<Entity uid="734">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="588.6648" z="258.11161"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16502"/>
+		</Entity>
+		<Entity uid="735">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="867.88587" z="446.65107"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38732"/>
+		</Entity>
+		<Entity uid="736">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="843.7187" z="432.11042"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24275"/>
+		</Entity>
+		<Entity uid="737">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="831.70655" z="445.62137"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63870"/>
+		</Entity>
+		<Entity uid="738">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="814.2787" z="432.46723"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17088"/>
+		</Entity>
+		<Entity uid="739">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="799.95728" z="444.02335"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12500"/>
+		</Entity>
+		<Entity uid="740">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="778.45179" z="434.09787"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62326"/>
+		</Entity>
+		<Entity uid="741">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="769.52283" z="462.24839"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26418"/>
+		</Entity>
+		<Entity uid="742">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="753.18445" z="452.95539"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1664"/>
+		</Entity>
+		<Entity uid="743">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="731.78364" z="472.8335"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18542"/>
+		</Entity>
+		<Entity uid="744">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="706.15656" z="456.09308"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61209"/>
+		</Entity>
+		<Entity uid="745">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="665.80701" z="457.78464"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49745"/>
+		</Entity>
+		<Entity uid="746">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="659.74299" z="473.36802"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52242"/>
+		</Entity>
+		<Entity uid="747">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="710.7339" z="472.06345"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9697"/>
+		</Entity>
+		<Entity uid="748">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="644.20594" z="443.68415"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="259"/>
+		</Entity>
+		<Entity uid="749">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="633.94214" z="458.13294"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41516"/>
+		</Entity>
+		<Entity uid="750">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="617.16028" z="433.291"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26385"/>
+		</Entity>
+		<Entity uid="751">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="603.46833" z="446.92261"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13905"/>
+		</Entity>
+		<Entity uid="752">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="565.8282" z="434.42661"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36143"/>
+		</Entity>
+		<Entity uid="753">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="570.08002" z="452.95694"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29158"/>
+		</Entity>
+		<Entity uid="754">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="438.90085" z="423.59287"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62249"/>
+		</Entity>
+		<Entity uid="755">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="378.23395" z="362.51288"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61219"/>
+		</Entity>
+		<Entity uid="756">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="329.8968" z="334.35587"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49199"/>
+		</Entity>
+		<Entity uid="757">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="296.6099" z="339.48835"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33363"/>
+		</Entity>
+		<Entity uid="758">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="290.72208" z="320.94288"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14815"/>
+		</Entity>
+		<Entity uid="759">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="271.80362" z="335.26368"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20357"/>
+		</Entity>
+		<Entity uid="760">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="261.26572" z="314.28556"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47557"/>
+		</Entity>
+		<Entity uid="761">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="252.86875" z="320.68595"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57594"/>
+		</Entity>
+		<Entity uid="762">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="232.9958" z="309.61496"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45775"/>
+		</Entity>
+		<Entity uid="763">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="242.6053" z="289.24686"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57196"/>
+		</Entity>
+		<Entity uid="764">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="223.58237" z="284.10929"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8043"/>
+		</Entity>
+		<Entity uid="765">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="231.54413" z="273.34385"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13642"/>
+		</Entity>
+		<Entity uid="766">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="204.48591" z="271.68775"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59984"/>
+		</Entity>
+		<Entity uid="767">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="218.93427" z="261.27183"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46511"/>
+		</Entity>
+		<Entity uid="768">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="170.17334" z="254.64618"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53621"/>
+		</Entity>
+		<Entity uid="769">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="170.93451" z="240.47318"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12335"/>
+		</Entity>
+		<Entity uid="770">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="146.95203" z="249.38718"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22161"/>
+		</Entity>
+		<Entity uid="771">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="148.85001" z="236.46186"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45915"/>
+		</Entity>
+		<Entity uid="772">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="123.08335" z="243.43192"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61507"/>
+		</Entity>
+		<Entity uid="773">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="128.6533" z="228.9145"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34289"/>
+		</Entity>
+		<Entity uid="774">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="109.9476" z="238.97706"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48379"/>
+		</Entity>
+		<Entity uid="775">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="119.10965" z="225.74235"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8552"/>
+		</Entity>
+		<Entity uid="776">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="98.22727" z="237.13141"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47063"/>
+		</Entity>
+		<Entity uid="777">
+			<Template>actor|props/special/common/light_post.xml</Template>
+			<Position x="104.34021" z="222.45136"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26470"/>
+		</Entity>
+		<Entity uid="778">
+			<Template>units/republic_infantry_usa_private</Template>
+			<Player>2</Player>
+			<Position x="99.55266" z="238.35947"/>
+			<Orientation y="0.88778"/>
+			<Actor seed="29544"/>
+		</Entity>
+		<Entity uid="779">
+			<Template>units/republic_infantry_usa_private</Template>
+			<Player>2</Player>
+			<Position x="106.04717" z="225.16666"/>
+			<Orientation y="0.8177"/>
+			<Actor seed="41597"/>
+		</Entity>
+		<Entity uid="780">
+			<Template>units/republic_infantry_usa_private</Template>
+			<Player>2</Player>
+			<Position x="102.41643" z="232.81492"/>
+			<Orientation y="0.43955"/>
+			<Actor seed="54990"/>
+		</Entity>
+		<Entity uid="781">
+			<Template>structures/republic_military_colony</Template>
+			<Player>2</Player>
+			<Position x="105.58791" z="256.50745"/>
+			<Orientation y="2.48612"/>
+			<Actor seed="23404"/>
+		</Entity>
+		<Entity uid="783">
+			<Template>structures/republic_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="267.8248" z="367.88801"/>
+			<Orientation y="2.29003"/>
+			<Actor seed="58991"/>
 		</Entity>
 	</Entities>
 	<Paths/>
