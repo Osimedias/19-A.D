@@ -9,7 +9,7 @@
   </Capturable>
   <Cost>
     <PopulationBonus>5</PopulationBonus>
-    <BuildTime>30</BuildTime>
+    <BuildTime>35</BuildTime>
     <Resources>
       <wood>75</wood>
     </Resources>
@@ -27,12 +27,12 @@
     <LoadingRange>1</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>250</Max>
+    <Max>75</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>House</GenericName>
-    <Tooltip>Increase the population limit.</Tooltip>
+    <GenericName>Inmigrant House</GenericName>
+    <Tooltip>Increase the population limit of inmigrants.</Tooltip>
     <VisibleClasses datatype="tokens">Village House</VisibleClasses>
     <SelectionGroupName>template_structure_civic_house</SelectionGroupName>
     <Icon>structures/house.png</Icon>
@@ -46,16 +46,8 @@
   <ProductionQueue>
     <BatchTimeModifier>1.0</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_support_female_citizen_house
-      units/{civ}_support_peasent_citizen
-      units/{civ}_infantry_merc_outlaw
+      units/{civ}_support_female_inmigrant_house
     </Entities>
-    <Technologies datatype="tokens">
-      health_females_01
-      pop_house_01
-      pop_house_02
-      unlock_females_house
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

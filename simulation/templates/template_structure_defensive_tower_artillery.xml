@@ -12,7 +12,7 @@
       <PrepareTime>4500</PrepareTime>
       <RepeatTime>5000</RepeatTime>
       <Projectile>
-        <Speed>40.0</Speed>
+        <Speed>250.0</Speed>
         <Spread>2.5</Spread>
         <Gravity>19.81</Gravity>
         <LaunchPoint y="3.2"/>
@@ -81,7 +81,7 @@
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/impact/siegeprojectilehit.xml</attack_impact_ranged>
-      <attack_ranged>attack/siege/ballist_attack.xml</attack_ranged>
+      <attack_ranged>attack/weapon/cannon.xml</attack_ranged>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>

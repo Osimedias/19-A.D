@@ -104,6 +104,10 @@
   "RevealMap": true,
   "VictoryConditions": [
     "conquest"
+  ],
+  "TriggerScripts": [
+  	"scripts/TriggerHelper.js",
+  	"triggers/mexican_sandbox.js"
   ]
 }
 ]]></ScriptSettings>

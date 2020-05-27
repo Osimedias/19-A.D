@@ -94,7 +94,7 @@
     <SoundGroups>
       <select>interface/select/building/sel_fortress.xml</select>
       <constructed>interface/complete/building/complete_fortress.xml</constructed>
-      <attack_ranged>attack/weapon/musket.xml</attack_ranged>
+      <attack_ranged>attack/weapon/cannon.xml</attack_ranged>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
