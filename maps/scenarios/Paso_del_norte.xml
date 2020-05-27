@@ -33,14 +33,19 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="147.314" y="274.526" z="120.753"/>
-		<Rotation angle="-0.229692"/>
+		<Position x="608.824" y="274.665" z="390.571"/>
+		<Rotation angle="-0.914783"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
+  "AISeed": 0,
   "CircularMap": true,
   "Description": "Sandbox Map for the Mexican Republic.",
+  "Keywords": [
+    "demo"
+  ],
+  "LockTeams": false,
   "Name": "Paso del Norte",
   "PlayerData": [
     {
@@ -51,6 +56,13 @@
         "r": 0
       },
       "Name": "Juarez Forces",
+      "PopulationLimit": 10000,
+      "Resources": {
+        "food": 2147483647,
+        "metal": 2147483647,
+        "stone": 2147483647,
+        "wood": 2147483647
+      },
       "StartingCamera": {
         "Position": {
           "x": 710.391,
@@ -88,6 +100,8 @@
       "Team": 0
     }
   ],
+  "Preview": "",
+  "RevealMap": true,
   "VictoryConditions": [
     "conquest"
   ]
@@ -187,8 +201,8 @@
 		</Entity>
 		<Entity uid="24">
 			<Template>structures/republic_presidio</Template>
-			<Player>0</Player>
-			<Position x="239.964" z="339.0947"/>
+			<Player>1</Player>
+			<Position x="241.05033" z="340.205"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21379"/>
 		</Entity>
@@ -1972,14 +1986,14 @@
 		</Entity>
 		<Entity uid="293">
 			<Template>structures/republic_guard_house</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="199.88974" z="280.24317"/>
 			<Orientation y="0.80987"/>
 			<Actor seed="38460"/>
 		</Entity>
 		<Entity uid="294">
 			<Template>structures/republic_guard_house</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="229.72245" z="251.95466"/>
 			<Orientation y="0.75414"/>
 			<Actor seed="24733"/>
@@ -5015,6 +5029,104 @@
 			<Position x="267.8248" z="367.88801"/>
 			<Orientation y="2.29003"/>
 			<Actor seed="58991"/>
+		</Entity>
+		<Entity uid="784">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>1</Player>
+			<Position x="669.87006" z="354.8618"/>
+			<Orientation y="1.1016"/>
+			<Actor seed="63185"/>
+		</Entity>
+		<Entity uid="785">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>1</Player>
+			<Position x="670.5005" z="359.20014"/>
+			<Orientation y="2.243"/>
+			<Actor seed="11568"/>
+		</Entity>
+		<Entity uid="786">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>1</Player>
+			<Position x="672.805" z="362.89478"/>
+			<Orientation y="2.4834"/>
+			<Actor seed="47963"/>
+		</Entity>
+		<Entity uid="787">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>1</Player>
+			<Position x="673.2021" z="354.55933"/>
+			<Orientation y="0.04859"/>
+			<Actor seed="33644"/>
+		</Entity>
+		<Entity uid="788">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>1</Player>
+			<Position x="675.48127" z="353.45643"/>
+			<Orientation y="0.71467"/>
+			<Actor seed="58928"/>
+		</Entity>
+		<Entity uid="789">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>1</Player>
+			<Position x="668.67701" z="357.41538"/>
+			<Orientation y="0.97037"/>
+			<Actor seed="63049"/>
+		</Entity>
+		<Entity uid="790">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>1</Player>
+			<Position x="666.94031" z="360.65262"/>
+			<Orientation y="1.325"/>
+			<Actor seed="30669"/>
+		</Entity>
+		<Entity uid="791">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>1</Player>
+			<Position x="665.25586" z="357.51267"/>
+			<Orientation y="0.83051"/>
+			<Actor seed="51132"/>
+		</Entity>
+		<Entity uid="792">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>1</Player>
+			<Position x="668.44574" z="354.13974"/>
+			<Orientation y="-0.44401"/>
+			<Actor seed="44601"/>
+		</Entity>
+		<Entity uid="793">
+			<Template>units/republic_support_peasent</Template>
+			<Player>1</Player>
+			<Position x="572.18274" z="551.72547"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25981"/>
+		</Entity>
+		<Entity uid="794">
+			<Template>units/republic_support_peasent</Template>
+			<Player>1</Player>
+			<Position x="576.26648" z="555.41364"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55115"/>
+		</Entity>
+		<Entity uid="795">
+			<Template>units/republic_support_peasent</Template>
+			<Player>1</Player>
+			<Position x="581.82013" z="558.98627"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49222"/>
+		</Entity>
+		<Entity uid="796">
+			<Template>units/republic_support_peasent</Template>
+			<Player>1</Player>
+			<Position x="586.73694" z="561.28541"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55162"/>
+		</Entity>
+		<Entity uid="797">
+			<Template>structures/republic_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="515.05573" z="597.06641"/>
+			<Orientation y="-2.30051"/>
+			<Actor seed="57689"/>
 		</Entity>
 	</Entities>
 	<Paths/>

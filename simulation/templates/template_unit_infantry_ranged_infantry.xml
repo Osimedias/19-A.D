@@ -35,7 +35,7 @@
     <GenericName>Range Infantry</GenericName>
   </Identity>
   <Loot>
-    <wood>5</wood>
+    <metal>15</metal>
   </Loot>
   <UnitMotion>
     <WalkSpeed op="mul">1.6</WalkSpeed>

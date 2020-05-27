@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee_spearman">
+  <Auras datatype="tokens">
+    lancer_spear_area_attack
+  </Auras>
   <Identity>
     <Civ>republic</Civ>
     <Lang>latin</Lang>

@@ -4,15 +4,15 @@
     <Ranged>
       <Damage>
         <Hack>0</Hack>
-        <Pierce>1.5</Pierce>
+        <Pierce>2.5</Pierce>
         <Crush>0</Crush>
       </Damage>
-      <MaxRange>60</MaxRange>
+      <MaxRange>100</MaxRange>
       <MinRange>0.0</MinRange>
       <PrepareTime>640</PrepareTime>
       <RepeatTime>4000</RepeatTime>
       <Projectile>
-        <Speed>350.0</Speed>
+        <Speed>370.0</Speed>
         <Gravity>39.81</Gravity>
         <Spread>5.0</Spread>
       </Projectile>
@@ -20,9 +20,13 @@
   </Attack>
   <Cost>
     <Resources>
-      <wood>50</wood>
+      <food>100</food>
+      <metal>150</metal>
     </Resources>
   </Cost>
+  <Health>
+    <Max>380</Max>
+  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Dragun</VisibleClasses>
     <GenericName>Cavalry Skirmisher Dragun</GenericName>

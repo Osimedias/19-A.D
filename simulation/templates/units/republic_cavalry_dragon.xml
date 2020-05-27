@@ -4,7 +4,7 @@
     <Civ>republic</Civ>
     <Lang>latin</Lang>
     <SelectionGroupName>units/republic_cavalry_dragon</SelectionGroupName>
-    <SpecificName>Dragon</SpecificName>
+    <SpecificName>Dragón</SpecificName>
     <Icon>units/athen_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion disable=""/>
