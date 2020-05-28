@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Hellenes Fortress">
+      <mesh>structural/empire/civic_center.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
+        <prop actor="props/special/common/flag_empire.xml" attachpoint="civic_center_flag"/>
+      </props>
+      <textures>
+        <texture file="structural/mexican_struct_north.png" name="baseTex"/>
+        <texture file="structural/mexican_struct_north_norm.png" name="normTex"/>
+        <texture file="structural/mexican_struct_north_spec.png" name="specTex"/>
+        <texture file="structural/ao/civic_center_empire_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="ungarrisoned" frequency="1"/>
+    <variant name="civic_center_flag">
+      <props>
+        <prop actor="props/special/common/garrison_flag_hele.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/hellenes/fortress_shields.xml" attachpoint="root"/>
+        <prop actor="props/structures/hellenes/fortress_gate.xml" attachpoint="root"/>
+        <prop actor="props/structures/hellenes/fortress_props_up.xml" attachpoint="root"/>
+        <prop actor="props/structures/hellenes/fortress_tile_b.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

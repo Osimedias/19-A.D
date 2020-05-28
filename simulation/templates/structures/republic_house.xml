@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_house_big">
   <Identity>
     <Civ>republic</Civ>
-    <SpecificName>Casa Colonial Norteña</SpecificName>
+    <SpecificName>Casa de Pueblo</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="10.0" depth="10.0"/>
