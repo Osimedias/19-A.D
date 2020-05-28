@@ -33,8 +33,8 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="608.824" y="274.665" z="390.571"/>
-		<Rotation angle="-0.914783"/>
+		<Position x="765.02" y="274.771" z="846.047"/>
+		<Rotation angle="-2.81287"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
@@ -48,6 +48,7 @@
   "LockTeams": false,
   "Name": "Paso del Norte",
   "PlayerData": [
+    null,
     {
       "Civ": "republic",
       "Color": {
@@ -106,8 +107,8 @@
     "conquest"
   ],
   "TriggerScripts": [
-  	"scripts/TriggerHelper.js",
-  	"triggers/mexican_sandbox.js"
+    "scripts/TriggerHelper.js",
+    "triggers/mexican_sandbox.js"
   ]
 }
 ]]></ScriptSettings>
@@ -5131,6 +5132,278 @@
 			<Position x="515.05573" z="597.06641"/>
 			<Orientation y="-2.30051"/>
 			<Actor seed="57689"/>
+		</Entity>
+		<Entity uid="799">
+			<Template>trigger/trigger_point_A</Template>
+			<Player>0</Player>
+			<Position x="110.97812" z="232.44666"/>
+			<Orientation y="2.41553"/>
+			<Actor seed="2036"/>
+		</Entity>
+		<Entity uid="800">
+			<Template>trigger/trigger_point_B</Template>
+			<Player>0</Player>
+			<Position x="174.04276" z="518.78321"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10172"/>
+		</Entity>
+		<Entity uid="801">
+			<Template>trigger/trigger_point_C</Template>
+			<Player>0</Player>
+			<Position x="1008.77302" z="426.44324"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15129"/>
+		</Entity>
+		<Entity uid="802">
+			<Template>trigger/trigger_point_D</Template>
+			<Player>0</Player>
+			<Position x="881.21113" z="440.82801"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29950"/>
+		</Entity>
+		<Entity uid="803">
+			<Template>trigger/trigger_point_E</Template>
+			<Player>0</Player>
+			<Position x="791.85566" z="439.23261"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23447"/>
+		</Entity>
+		<Entity uid="804">
+			<Template>trigger/trigger_point_F</Template>
+			<Player>0</Player>
+			<Position x="663.54682" z="467.52735"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15871"/>
+		</Entity>
+		<Entity uid="805">
+			<Template>trigger/trigger_point_G</Template>
+			<Player>0</Player>
+			<Position x="609.76557" z="436.96735"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63180"/>
+		</Entity>
+		<Entity uid="806">
+			<Template>trigger/trigger_point_H</Template>
+			<Player>0</Player>
+			<Position x="527.55304" z="452.31214"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45223"/>
+		</Entity>
+		<Entity uid="807">
+			<Template>trigger/trigger_point_I</Template>
+			<Player>0</Player>
+			<Position x="436.6836" z="430.27024"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37544"/>
+		</Entity>
+		<Entity uid="808">
+			<Template>trigger/trigger_point_J</Template>
+			<Player>0</Player>
+			<Position x="361.88288" z="359.38071"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19691"/>
+		</Entity>
+		<Entity uid="809">
+			<Template>trigger/trigger_point_K</Template>
+			<Player>0</Player>
+			<Position x="256.09382" z="319.63654"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7889"/>
+		</Entity>
+		<Entity uid="810">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>0</Player>
+			<Position x="852.05011" z="772.12085"/>
+			<Orientation y="-0.04633"/>
+			<Actor seed="42902"/>
+		</Entity>
+		<Entity uid="811">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>0</Player>
+			<Position x="855.29383" z="774.17341"/>
+			<Orientation y="-0.82589"/>
+			<Actor seed="43979"/>
+		</Entity>
+		<Entity uid="812">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>0</Player>
+			<Position x="857.62958" z="776.64618"/>
+			<Orientation y="-1.2508"/>
+			<Actor seed="47527"/>
+		</Entity>
+		<Entity uid="813">
+			<Template>units/republic_infantry_merc_outlaw</Template>
+			<Player>0</Player>
+			<Position x="848.64875" z="772.24225"/>
+			<Orientation y="0.25231"/>
+			<Actor seed="59269"/>
+		</Entity>
+		<Entity uid="814">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="751.65638" z="888.82776"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30357"/>
+		</Entity>
+		<Entity uid="815">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="786.1294" z="872.0818"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16161"/>
+		</Entity>
+		<Entity uid="816">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="766.34656" z="831.68818"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31502"/>
+		</Entity>
+		<Entity uid="817">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="850.3454" z="700.67646"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9047"/>
+		</Entity>
+		<Entity uid="818">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="900.53834" z="728.66932"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1264"/>
+		</Entity>
+		<Entity uid="819">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="900.6996" z="625.95154"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12270"/>
+		</Entity>
+		<Entity uid="820">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="889.27906" z="566.72437"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27671"/>
+		</Entity>
+		<Entity uid="821">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="551.5672" z="762.34766"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49545"/>
+		</Entity>
+		<Entity uid="822">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="569.61561" z="835.63642"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39191"/>
+		</Entity>
+		<Entity uid="823">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="469.6428" z="877.91321"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40040"/>
+		</Entity>
+		<Entity uid="824">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="508.69105" z="971.5406"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52994"/>
+		</Entity>
+		<Entity uid="825">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="396.63941" z="963.0423"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24540"/>
+		</Entity>
+		<Entity uid="826">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="381.36728" z="857.12348"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45541"/>
+		</Entity>
+		<Entity uid="827">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="282.28348" z="904.22815"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6191"/>
+		</Entity>
+		<Entity uid="828">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="163.13651" z="837.28931"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20089"/>
+		</Entity>
+		<Entity uid="829">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="183.82712" z="870.2898"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8423"/>
+		</Entity>
+		<Entity uid="830">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="203.56623" z="818.61896"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64544"/>
+		</Entity>
+		<Entity uid="831">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="160.2396" z="744.25135"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58012"/>
+		</Entity>
+		<Entity uid="832">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="159.92777" z="683.07911"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58990"/>
+		</Entity>
+		<Entity uid="833">
+			<Template>gaia/flora_tree_acacia</Template>
+			<Player>0</Player>
+			<Position x="144.89585" z="799.06501"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19891"/>
+		</Entity>
+		<Entity uid="834">
+			<Template>structures/rome_tent</Template>
+			<Player>0</Player>
+			<Position x="840.10712" z="775.92042"/>
+			<Orientation y="1.41756"/>
+			<Actor seed="4988"/>
+		</Entity>
+		<Entity uid="835">
+			<Template>structures/rome_tent</Template>
+			<Player>0</Player>
+			<Position x="867.5254" z="776.21045"/>
+			<Orientation y="-0.1923"/>
+			<Actor seed="31480"/>
+		</Entity>
+		<Entity uid="836">
+			<Template>structures/rome_tent</Template>
+			<Player>0</Player>
+			<Position x="841.62891" z="791.7746"/>
+			<Orientation y="1.58263"/>
+			<Actor seed="43308"/>
+		</Entity>
+		<Entity uid="837">
+			<Template>actor|props/special/eyecandy/campfire.xml</Template>
+			<Position x="852.8183" z="779.42432"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59399"/>
 		</Entity>
 	</Entities>
 	<Paths/>
