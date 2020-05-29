@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks">
+<Entity parent="template_structure_military_barracks_stable">
   <Cost>
     <Resources>
       <wood>100</wood>
@@ -15,7 +15,7 @@
   </Health>
   <Identity>
     <Civ>empire</Civ>
-    <SpecificName>Cuartel</SpecificName>
+    <SpecificName>Cuartel Militar</SpecificName>
   </Identity>
   <Loot>
     <wood>20</wood>
@@ -24,22 +24,8 @@
   <Obstruction>
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
-  <Upgrade>
-    <Stable>
-      <Entity>structures/{civ}_barracks_stable</Entity>
-      <Tooltip>Build a stable inside your barracks.</Tooltip>
-      <RequiredTechnology>phase_town</RequiredTechnology>
-      <Cost>
-        <wood>50</wood>
-        <stone>100</stone>
-      </Cost>
-      <Time>100</Time>
-	  <Variant>upgrading</Variant>
-    </Stable>
-  </Upgrade>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_infantry_barracks
       units/{civ}_champion_cavalry_barracks
     </Entities>
     <Technologies datatype="tokens">
@@ -47,7 +33,7 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/mexican_center/barracks.xml</Actor>
+    <Actor>structures/mexican_center/stable.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
