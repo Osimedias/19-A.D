@@ -1,4 +1,7 @@
 
+Background
+https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_du_corps_exp%C3%A9ditionnaire_fran%C3%A7ais_%C3%A0_Mexico,_juin_1863.jpg?uselang=fr
+
 Freesound
 Cannon impact 9.wav by OGsoundFX
 
@@ -13,3 +16,5 @@ the union solider and animations, union houses and block house and union texture
 
 
 This mod is base on the first commit of https://github.com/0ADMods/pyrogenesis-1861
+
+
