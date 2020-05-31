@@ -29,7 +29,7 @@
     <SelectionGroupName>units/republic_outlaw</SelectionGroupName>
     <GenericName>Pistolero</GenericName>
     <SpecificName>Outlaw</SpecificName>
-    <Icon>units/mace_infantry_archer.png</Icon>
+    <Icon>units/outlaw.png</Icon>
   </Identity>
   <ResourceGatherer disable=""/>
   <Promotion disable=""/>

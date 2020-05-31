@@ -3,12 +3,12 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="slingrock">
-      <mesh>props/sling_projectile.dae</mesh>
+      <mesh>props/cannon_ball.dae</mesh>
       <props>
         <prop actor="particle/smoke.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="gaia/rock_ocean_1.dds" name="baseTex"/>
+        <texture file="structural/mexican_struct_north.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

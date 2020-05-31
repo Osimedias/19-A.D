@@ -13,7 +13,7 @@
     <SelectionGroupName>units/republic_usa_private</SelectionGroupName>
     <GenericName>Union Private Infantry</GenericName>
     <SpecificName>Infanteria Privada Estadounidence</SpecificName>
-    <Icon>units/mace_infantry_archer.png</Icon>
+    <Icon>units/usa_private.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

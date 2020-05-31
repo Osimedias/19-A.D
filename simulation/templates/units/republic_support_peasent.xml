@@ -4,7 +4,7 @@
     <Civ>republic</Civ>
     <SpecificName>Campesino</SpecificName>
     <GenericName>Peasant</GenericName>
-    <Icon>units/global_slave.png</Icon>
+    <Icon>units/campesino.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/republica/peasent.xml</Actor>

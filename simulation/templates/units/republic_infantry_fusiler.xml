@@ -13,7 +13,7 @@
     <SelectionGroupName>units/republic_gn</SelectionGroupName>
     <GenericName>National Guard</GenericName>
     <SpecificName>Guardia Nacional</SpecificName>
-    <Icon>units/mace_infantry_archer.png</Icon>
+    <Icon>units/national_guard.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
