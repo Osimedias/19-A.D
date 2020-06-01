@@ -1,7 +1,7 @@
 {
 	"Code":"republic",
 	"Culture":"norten-mexican",
-	"Name":"Republican Liberals",
+	"Name":"Mexican Republic",
 	"Emblem":"session/portraits/emblems/emblem_mex_re.png",
 	"History":"N/A",
 	"Music":[],
@@ -86,7 +86,7 @@
 	],
 	"WallSets":[
 		"structures/wallset_paliside",
-		"structures/wallset_stone"
+		"structures/rome_wallset_stone"
 	],
 	"StartEntities":[
 		{

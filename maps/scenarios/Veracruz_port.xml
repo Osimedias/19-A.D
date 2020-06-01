@@ -49,28 +49,7 @@
   "Name": "Veracruz Port",
   "PlayerData": [
     {
-      "Civ": "monarc"
-    },
-    {
-      "Civ": "cart"
-    },
-    {
-      "Civ": "gaul"
-    },
-    {
-      "Civ": "iber"
-    },
-    {
-      "Civ": "mace"
-    },
-    {
-      "Civ": "pers"
-    },
-    {
-      "Civ": "rome"
-    },
-    {
-      "Civ": "spart"
+      "Civ": "mex_empire"
     }
   ],
   "Preview": "",

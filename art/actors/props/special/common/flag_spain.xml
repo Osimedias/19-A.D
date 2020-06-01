@@ -7,7 +7,9 @@
         <animation file="other/flag_animation.dae" name="Idle" speed="30"/>
       </animations>
       <mesh>skeletal/flag.dae</mesh>
-      <textures><texture file="props/flags/spanish_flag.png" name="baseTex"/></textures>
+      <textures>
+         <texture file="props/flags/spanish_flag.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <material>default.xml</material>

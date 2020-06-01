@@ -33,8 +33,8 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="765.02" y="274.771" z="846.047"/>
-		<Rotation angle="-2.81287"/>
+		<Position x="399.401" y="292.833" z="842.377"/>
+		<Rotation angle="-2.62768"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
@@ -50,7 +50,7 @@
   "PlayerData": [
     null,
     {
-      "Civ": "republic",
+      "Civ": "mex_republic",
       "Color": {
         "b": 50,
         "g": 155,
@@ -79,13 +79,13 @@
       "Team": 0
     },
     {
-      "Civ": "republic",
+      "Civ": "mex_republic",
       "Color": {
         "b": 255,
         "g": 16,
         "r": 0
       },
-      "Name": "USA Gate",
+      "Name": "USA Border Gate",
       "StartingCamera": {
         "Position": {
           "x": 116.425,
@@ -5404,6 +5404,906 @@
 			<Position x="852.8183" z="779.42432"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="59399"/>
+		</Entity>
+		<Entity uid="838">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="866.82172" z="251.75446"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34312"/>
+		</Entity>
+		<Entity uid="839">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="868.50525" z="273.85337"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35641"/>
+		</Entity>
+		<Entity uid="840">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="843.58301" z="297.62421"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61217"/>
+		</Entity>
+		<Entity uid="841">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="831.32618" z="293.6096"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52416"/>
+		</Entity>
+		<Entity uid="842">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="814.60993" z="242.63617"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50372"/>
+		</Entity>
+		<Entity uid="843">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="798.74262" z="230.68198"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60737"/>
+		</Entity>
+		<Entity uid="844">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="775.85853" z="229.3299"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16819"/>
+		</Entity>
+		<Entity uid="845">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="803.61805" z="276.7776"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9984"/>
+		</Entity>
+		<Entity uid="846">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="812.2818" z="290.72367"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60690"/>
+		</Entity>
+		<Entity uid="847">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="842.75257" z="259.78501"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36710"/>
+		</Entity>
+		<Entity uid="848">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="845.07166" z="226.55365"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52793"/>
+		</Entity>
+		<Entity uid="849">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="820.29413" z="187.73185"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30246"/>
+		</Entity>
+		<Entity uid="850">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="826.43183" z="148.24378"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2418"/>
+		</Entity>
+		<Entity uid="851">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="853.95392" z="163.02372"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54197"/>
+		</Entity>
+		<Entity uid="852">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="879.2115" z="187.19867"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55319"/>
+		</Entity>
+		<Entity uid="853">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="884.31727" z="200.90241"/>
+			<Orientation y="0.0219"/>
+			<Actor seed="42815"/>
+		</Entity>
+		<Entity uid="854">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="898.74817" z="246.31733"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59049"/>
+		</Entity>
+		<Entity uid="855">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="885.51264" z="248.05286"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56670"/>
+		</Entity>
+		<Entity uid="856">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="871.1125" z="237.71094"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59151"/>
+		</Entity>
+		<Entity uid="857">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="857.85096" z="217.93638"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12152"/>
+		</Entity>
+		<Entity uid="858">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="852.22004" z="200.73151"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57143"/>
+		</Entity>
+		<Entity uid="859">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="900.5221" z="273.41596"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27221"/>
+		</Entity>
+		<Entity uid="860">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="890.05329" z="288.3801"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46240"/>
+		</Entity>
+		<Entity uid="861">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="887.77753" z="297.76423"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52252"/>
+		</Entity>
+		<Entity uid="862">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="848.62586" z="309.77439"/>
+			<Orientation y="-0.82505"/>
+			<Actor seed="4497"/>
+		</Entity>
+		<Entity uid="863">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="833.0348" z="318.33017"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36418"/>
+		</Entity>
+		<Entity uid="864">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="824.58588" z="313.45093"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="549"/>
+		</Entity>
+		<Entity uid="865">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="916.83533" z="287.2591"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61"/>
+		</Entity>
+		<Entity uid="866">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="920.90296" z="285.68323"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10888"/>
+		</Entity>
+		<Entity uid="867">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="921.68824" z="265.70844"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45834"/>
+		</Entity>
+		<Entity uid="868">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="920.4123" z="245.65967"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62013"/>
+		</Entity>
+		<Entity uid="869">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="765.52088" z="170.24094"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54580"/>
+		</Entity>
+		<Entity uid="870">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="772.00171" z="181.76307"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24980"/>
+		</Entity>
+		<Entity uid="871">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="781.66431" z="206.56348"/>
+			<Orientation y="-2.03975"/>
+			<Actor seed="19427"/>
+		</Entity>
+		<Entity uid="872">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="761.29316" z="200.53238"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34318"/>
+		</Entity>
+		<Entity uid="873">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="745.09571" z="192.559"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55033"/>
+		</Entity>
+		<Entity uid="874">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="742.63935" z="181.03748"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44031"/>
+		</Entity>
+		<Entity uid="875">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="765.136" z="171.54755"/>
+			<Orientation y="1.8874"/>
+			<Actor seed="35282"/>
+		</Entity>
+		<Entity uid="876">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="780.89448" z="165.2107"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30568"/>
+		</Entity>
+		<Entity uid="877">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="782.19373" z="101.19843"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33063"/>
+		</Entity>
+		<Entity uid="878">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="802.50232" z="119.70311"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63311"/>
+		</Entity>
+		<Entity uid="879">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="801.23469" z="129.87833"/>
+			<Orientation y="-1.47121"/>
+			<Actor seed="54489"/>
+		</Entity>
+		<Entity uid="880">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="782.66102" z="125.45476"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52971"/>
+		</Entity>
+		<Entity uid="881">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="685.20087" z="169.66056"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41978"/>
+		</Entity>
+		<Entity uid="882">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="690.94776" z="161.03364"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6408"/>
+		</Entity>
+		<Entity uid="883">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="689.18805" z="158.3006"/>
+			<Orientation y="0.67031"/>
+			<Actor seed="48211"/>
+		</Entity>
+		<Entity uid="884">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="703.8921" z="174.6594"/>
+			<Orientation y="0.6703"/>
+			<Actor seed="2454"/>
+		</Entity>
+		<Entity uid="885">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="705.96778" z="177.71793"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41372"/>
+		</Entity>
+		<Entity uid="886">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="684.52216" z="180.10764"/>
+			<Orientation y="-1.64571"/>
+			<Actor seed="8394"/>
+		</Entity>
+		<Entity uid="887">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="658.55445" z="187.97428"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10942"/>
+		</Entity>
+		<Entity uid="888">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="646.08942" z="189.61667"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33237"/>
+		</Entity>
+		<Entity uid="889">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="574.99738" z="67.86371"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30592"/>
+		</Entity>
+		<Entity uid="890">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="576.89039" z="59.12342"/>
+			<Orientation y="1.89142"/>
+			<Actor seed="40479"/>
+		</Entity>
+		<Entity uid="891">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="608.92823" z="48.1586"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8400"/>
+		</Entity>
+		<Entity uid="892">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="615.99903" z="48.9138"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17583"/>
+		</Entity>
+		<Entity uid="893">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="624.71216" z="58.72965"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22588"/>
+		</Entity>
+		<Entity uid="894">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="624.64502" z="68.6086"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38837"/>
+		</Entity>
+		<Entity uid="895">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="638.11768" z="60.6001"/>
+			<Orientation y="2.22631"/>
+			<Actor seed="23757"/>
+		</Entity>
+		<Entity uid="896">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="646.22724" z="50.14956"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13182"/>
+		</Entity>
+		<Entity uid="897">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="645.52637" z="45.64873"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30141"/>
+		</Entity>
+		<Entity uid="898">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="644.77106" z="44.03422"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35194"/>
+		</Entity>
+		<Entity uid="899">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="595.41852" z="36.59113"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46200"/>
+		</Entity>
+		<Entity uid="900">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="590.50416" z="37.89838"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16173"/>
+		</Entity>
+		<Entity uid="901">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="579.39655" z="34.01891"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9027"/>
+		</Entity>
+		<Entity uid="902">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="572.38611" z="26.46769"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20042"/>
+		</Entity>
+		<Entity uid="903">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="560.93592" z="27.4699"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9041"/>
+		</Entity>
+		<Entity uid="904">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="555.53235" z="36.33762"/>
+			<Orientation y="-0.1235"/>
+			<Actor seed="46770"/>
+		</Entity>
+		<Entity uid="905">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="559.50586" z="50.41008"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53162"/>
+		</Entity>
+		<Entity uid="906">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="557.0943" z="52.77915"/>
+			<Orientation y="-1.31081"/>
+			<Actor seed="33398"/>
+		</Entity>
+		<Entity uid="907">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="537.43116" z="58.00974"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20422"/>
+		</Entity>
+		<Entity uid="908">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="532.60077" z="54.90474"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20552"/>
+		</Entity>
+		<Entity uid="909">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="538.98584" z="42.04793"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55841"/>
+		</Entity>
+		<Entity uid="910">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="542.04908" z="783.87555"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31624"/>
+		</Entity>
+		<Entity uid="911">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="526.97492" z="770.13276"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23551"/>
+		</Entity>
+		<Entity uid="912">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="541.58521" z="749.42701"/>
+			<Orientation y="1.8581"/>
+			<Actor seed="64063"/>
+		</Entity>
+		<Entity uid="913">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="583.50654" z="736.41334"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38959"/>
+		</Entity>
+		<Entity uid="914">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="613.15235" z="727.22486"/>
+			<Orientation y="2.13961"/>
+			<Actor seed="18585"/>
+		</Entity>
+		<Entity uid="915">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="643.61292" z="703.76392"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33005"/>
+		</Entity>
+		<Entity uid="916">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="645.01679" z="699.4922"/>
+			<Orientation y="0.8112"/>
+			<Actor seed="11359"/>
+		</Entity>
+		<Entity uid="917">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="706.49671" z="743.39087"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46229"/>
+		</Entity>
+		<Entity uid="918">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="730.02356" z="749.49311"/>
+			<Orientation y="1.57982"/>
+			<Actor seed="39469"/>
+		</Entity>
+		<Entity uid="919">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="750.50464" z="748.16767"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42871"/>
+		</Entity>
+		<Entity uid="920">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="764.79236" z="734.63904"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54580"/>
+		</Entity>
+		<Entity uid="921">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="803.2782" z="802.00831"/>
+			<Orientation y="0.48153"/>
+			<Actor seed="21757"/>
+		</Entity>
+		<Entity uid="922">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="878.28626" z="906.61377"/>
+			<Orientation y="1.83079"/>
+			<Actor seed="21726"/>
+		</Entity>
+		<Entity uid="923">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="885.46497" z="860.59711"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44733"/>
+		</Entity>
+		<Entity uid="924">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="835.5727" z="844.73926"/>
+			<Orientation y="-1.6736"/>
+			<Actor seed="30807"/>
+		</Entity>
+		<Entity uid="925">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="744.18415" z="840.09473"/>
+			<Orientation y="-1.4082"/>
+			<Actor seed="10795"/>
+		</Entity>
+		<Entity uid="926">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="671.49476" z="867.05536"/>
+			<Orientation y="-1.31081"/>
+			<Actor seed="3125"/>
+		</Entity>
+		<Entity uid="927">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="616.73743" z="877.31934"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36681"/>
+		</Entity>
+		<Entity uid="928">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="588.42115" z="885.23041"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14616"/>
+		</Entity>
+		<Entity uid="929">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="553.31733" z="821.90204"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38461"/>
+		</Entity>
+		<Entity uid="930">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="549.47767" z="822.89771"/>
+			<Orientation y="-1.31081"/>
+			<Actor seed="14468"/>
+		</Entity>
+		<Entity uid="931">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="526.90851" z="844.19471"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38882"/>
+		</Entity>
+		<Entity uid="932">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="527.33423" z="878.87586"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35922"/>
+		</Entity>
+		<Entity uid="933">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="509.63135" z="909.46747"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9470"/>
+		</Entity>
+		<Entity uid="934">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="503.20771" z="899.84021"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9233"/>
+		</Entity>
+		<Entity uid="935">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="491.45005" z="858.89692"/>
+			<Orientation y="3.082"/>
+			<Actor seed="26754"/>
+		</Entity>
+		<Entity uid="936">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="491.80408" z="822.91755"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31873"/>
+		</Entity>
+		<Entity uid="937">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="490.86512" z="800.57337"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51509"/>
+		</Entity>
+		<Entity uid="938">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="482.61295" z="793.40613"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30924"/>
+		</Entity>
+		<Entity uid="939">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="472.70423" z="783.10242"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21647"/>
+		</Entity>
+		<Entity uid="940">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="429.79255" z="741.62305"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44068"/>
+		</Entity>
+		<Entity uid="941">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="446.60904" z="716.24122"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47987"/>
+		</Entity>
+		<Entity uid="942">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="448.50165" z="753.86463"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34308"/>
+		</Entity>
+		<Entity uid="943">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="415.77537" z="765.30414"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14021"/>
+		</Entity>
+		<Entity uid="944">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="416.47376" z="774.51795"/>
+			<Orientation y="0.95701"/>
+			<Actor seed="4965"/>
+		</Entity>
+		<Entity uid="945">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="461.03107" z="806.82282"/>
+			<Orientation y="0.46564"/>
+			<Actor seed="30158"/>
+		</Entity>
+		<Entity uid="946">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="476.20173" z="849.85694"/>
+			<Orientation y="0.46564"/>
+			<Actor seed="63570"/>
+		</Entity>
+		<Entity uid="947">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="494.58637" z="880.19031"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41722"/>
+		</Entity>
+		<Entity uid="948">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="518.74201" z="898.36884"/>
+			<Orientation y="1.41634"/>
+			<Actor seed="47708"/>
+		</Entity>
+		<Entity uid="949">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="556.41926" z="908.9856"/>
+			<Orientation y="1.27846"/>
+			<Actor seed="27603"/>
+		</Entity>
+		<Entity uid="950">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="576.2381" z="921.52259"/>
+			<Orientation y="0.60056"/>
+			<Actor seed="55378"/>
+		</Entity>
+		<Entity uid="951">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="599.80915" z="952.52503"/>
+			<Orientation y="0.53064"/>
+			<Actor seed="58713"/>
+		</Entity>
+		<Entity uid="952">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="593.81885" z="961.51008"/>
+			<Orientation y="-1.3791"/>
+			<Actor seed="31321"/>
+		</Entity>
+		<Entity uid="953">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="409.85401" z="893.47266"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56974"/>
+		</Entity>
+		<Entity uid="954">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="443.02051" z="904.8708"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40383"/>
+		</Entity>
+		<Entity uid="955">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="465.17063" z="921.87134"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48901"/>
+		</Entity>
+		<Entity uid="956">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="449.58027" z="938.56067"/>
+			<Orientation y="-1.0569"/>
+			<Actor seed="4173"/>
+		</Entity>
+		<Entity uid="957">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="419.85288" z="952.66504"/>
+			<Orientation y="-1.38769"/>
+			<Actor seed="39040"/>
+		</Entity>
+		<Entity uid="958">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="388.04017" z="948.74"/>
+			<Orientation y="-2.7005"/>
+			<Actor seed="10856"/>
+		</Entity>
+		<Entity uid="959">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="372.85843" z="924.97236"/>
+			<Orientation y="-0.7112"/>
+			<Actor seed="5031"/>
+		</Entity>
+		<Entity uid="960">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="343.18854" z="954.89673"/>
+			<Orientation y="-0.2444"/>
+			<Actor seed="1465"/>
+		</Entity>
+		<Entity uid="961">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="346.80298" z="975.64576"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18105"/>
+		</Entity>
+		<Entity uid="962">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="374.64087" z="971.6803"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49377"/>
+		</Entity>
+		<Entity uid="963">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="366.68335" z="957.60596"/>
+			<Orientation y="-2.05115"/>
+			<Actor seed="24877"/>
+		</Entity>
+		<Entity uid="964">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="293.5095" z="929.18104"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11460"/>
+		</Entity>
+		<Entity uid="965">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="263.12955" z="913.96009"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57552"/>
+		</Entity>
+		<Entity uid="966">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="250.05668" z="894.55005"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1109"/>
+		</Entity>
+		<Entity uid="967">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="256.62986" z="872.01246"/>
+			<Orientation y="2.88163"/>
+			<Actor seed="43892"/>
+		</Entity>
+		<Entity uid="968">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="268.48414" z="847.70588"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42499"/>
+		</Entity>
+		<Entity uid="969">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="326.50831" z="742.21894"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20974"/>
+		</Entity>
+		<Entity uid="970">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="329.1442" z="748.10804"/>
+			<Orientation y="0.3155"/>
+			<Actor seed="44470"/>
+		</Entity>
+		<Entity uid="971">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="330.80491" z="784.5365"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6233"/>
+		</Entity>
+		<Entity uid="972">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="310.2743" z="785.37806"/>
+			<Orientation y="-2.13032"/>
+			<Actor seed="35342"/>
+		</Entity>
+		<Entity uid="973">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="246.96024" z="762.29572"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57983"/>
+		</Entity>
+		<Entity uid="974">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="218.62809" z="779.58393"/>
+			<Orientation y="-1.0569"/>
+			<Actor seed="51364"/>
+		</Entity>
+		<Entity uid="975">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="206.80613" z="799.86622"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27657"/>
+		</Entity>
+		<Entity uid="976">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="221.26423" z="830.323"/>
+			<Orientation y="-0.04212"/>
+			<Actor seed="23389"/>
+		</Entity>
+		<Entity uid="977">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="214.80622" z="862.80884"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22300"/>
+		</Entity>
+		<Entity uid="978">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="286.35862" z="646.75757"/>
+			<Orientation y="1.05582"/>
+			<Actor seed="37903"/>
+		</Entity>
+		<Entity uid="979">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="327.47974" z="679.95868"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64934"/>
+		</Entity>
+		<Entity uid="980">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="336.58964" z="704.45026"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18835"/>
+		</Entity>
+		<Entity uid="981">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="323.63105" z="698.05811"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39919"/>
+		</Entity>
+		<Entity uid="982">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="306.80643" z="669.99695"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10328"/>
+		</Entity>
+		<Entity uid="983">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="314.75434" z="650.94007"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49494"/>
+		</Entity>
+		<Entity uid="984">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="316.60364" z="626.80152"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30626"/>
+		</Entity>
+		<Entity uid="985">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="280.9856" z="600.94556"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36348"/>
+		</Entity>
+		<Entity uid="986">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="252.28156" z="595.65735"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20802"/>
+		</Entity>
+		<Entity uid="987">
+			<Template>actor|flora/nopal.xml</Template>
+			<Position x="243.01291" z="608.96644"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12727"/>
 		</Entity>
 	</Entities>
 	<Paths/>

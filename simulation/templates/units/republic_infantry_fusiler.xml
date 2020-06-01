@@ -15,6 +15,14 @@
     <SpecificName>Guardia Nacional</SpecificName>
     <Icon>units/national_guard.png</Icon>
   </Identity>
+  <Upgrade>
+    <Range>
+      <Entity>units/{civ}_infantry_fusiler_melee</Entity>
+      <Tooltip>Use the bayonet.</Tooltip>
+      <Time>100</Time>
+      <Variant>upgrading</Variant>
+    </Range>
+  </Upgrade>
   <Promotion disable=""/>
   <VisualActor>
     <Actor>units/republica/infantry_gn_ranged</Actor>
