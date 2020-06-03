@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="Car" id="Car">
+    <bone name="root">
+      <bone name="cabin" />
+      <bone name="w_back_r" />
+      <bone name="w_back_l" />
+      <bone name="w_front_r" />
+      <bone name="w_front_l" />
+    </bone>
+    <bone name="car" />
+  </standard_skeleton>
+  <skeleton title="Car" target="Car">
+    <identifier>
+      <root>root</root>
+    </identifier>
+    <bone name="root">
+      <target>root</target>
+      <bone name="cabin">
+        <target>cabin</target>
+      </bone>
+      <bone name="w_back_r">
+        <target>w_back_r</target>
+      </bone>
+      <bone name="w_back_l">
+        <target>w_back_l</target>
+      </bone>
+      <bone name="w_front_r">
+        <target>w_front_r</target>
+      </bone>
+      <bone name="w_front_l">
+        <target>w_front_l</target>
+      </bone>
+    </bone>
+    <bone name="car">
+      <target>car</target>
+    </bone>
+  </skeleton>
+</skeletons>

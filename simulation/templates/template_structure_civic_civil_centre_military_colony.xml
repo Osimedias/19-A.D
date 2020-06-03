@@ -37,9 +37,8 @@
   </Loot>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      -phase_town_{civ}
-      -phase_city_{civ}
-      upgrade_rank_advanced_mercenary
+      -phase/phase_town_{civ}
+      -phase/phase_city_{civ}
     </Technologies>
   </ProductionQueue>
   <Sound>

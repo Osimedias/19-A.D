@@ -33,8 +33,8 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="399.401" y="292.833" z="842.377"/>
-		<Rotation angle="-2.62768"/>
+		<Position x="797.748" y="237.753" z="453.698"/>
+		<Rotation angle="-1.59805"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
@@ -6304,6 +6304,13 @@
 			<Position x="243.01291" z="608.96644"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12727"/>
+		</Entity>
+		<Entity uid="988">
+			<Template>units/republic_hero_juarez</Template>
+			<Player>1</Player>
+			<Position x="714.79126" z="444.44901"/>
+			<Orientation y="-3.0886"/>
+			<Actor seed="48595"/>
 		</Entity>
 	</Entities>
 	<Paths/>

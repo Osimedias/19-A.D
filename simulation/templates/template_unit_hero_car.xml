@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero">
+  <Armour>
+    <Hack>6</Hack>
+    <Pierce>10</Pierce>
+    <Crush>6</Crush>
+  </Armour>
+  <Attack disable=""/>
+  <Cost>
+    <Resources>
+      <food>200</food>
+      <wood>150</wood>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1500</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Support</VisibleClasses>
+  </Identity>
+  <Position>
+    <Anchor>upright</Anchor>
+  </Position>
+  <ProductionQueue>
+    <TechCostMultiplier>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>1.0</stone>
+      <metal>1.0</metal>
+      <time>1.0</time>
+    </TechCostMultiplier>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_support_female_citizen
+      units/{civ}_support_peasent
+    </Entities>
+  </ProductionQueue>
+  <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+    <Sharable>false</Sharable>
+  </ResourceDropsite>
+  <Vision>
+    <Range>30</Range>
+  </Vision>
+</Entity>

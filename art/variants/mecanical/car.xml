@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base" frequency="1">
+  <animations>
+    <animation file="mecanical/juarez_car_idle.dae" name="Idle" speed="50"/>
+    <animation file="mecanical/juarez_car_walk.dae" name="Walk" speed="60"/>
+    <animation file="mecanical/juarez_car_walk.dae" name="run" speed="30"/>
+  </animations>
+</variant>

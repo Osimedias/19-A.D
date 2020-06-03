@@ -10,7 +10,7 @@
         <prop actor="props/units/weapons/rifle_bayonet.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
-        <texture file="skeletal/USA_uniform_infantry_pc.png" name="normTex"/>
+        <texture file="skeletal/MEX_uniform_infantry_gn.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
