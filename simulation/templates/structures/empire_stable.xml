@@ -16,6 +16,7 @@
   <Identity>
     <Civ>empire</Civ>
     <SpecificName>Cuartel Militar</SpecificName>
+    <GenericName>Barracks</GenericName>
   </Identity>
   <Loot>
     <wood>20</wood>

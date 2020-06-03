@@ -15,14 +15,14 @@
   </Footprint>
   <GarrisonHolder>
     <Max>2</Max>
-    <List datatype="tokens">Siege</List>
+    <List datatype="tokens">Artillery</List>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Siege Workshop</GenericName>
+    <GenericName>Arsenal</GenericName>
     <SelectionGroupName>template_structure_military_workshop</SelectionGroupName>
     <Icon>structures/siege_workshop.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
@@ -43,11 +43,14 @@
       units/{civ}_artillery_mortal_packed
     </Entities>
     <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
-      siege_cost_metal
-      siege_cost_wood
-      siege_bolt_accuracy
+    	military/gunpowder_attack_basic
+    	military/gunpowder_attack_normal
+    	military/gunpowder_attack_advance
+    	military/militar_armor_basic
+    	military/militar_armor_normal
+    	military/militar_armor_advance
+    	military/artillery_armor
+    	military/artillery_attack
     </Technologies>
   </ProductionQueue>
   <Sound>

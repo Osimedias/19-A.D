@@ -45,13 +45,12 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      unlock_shared_los
-      unlock_shared_dropsites
-      trade_convoys_speed
-      trade_convoys_armor
-      trade_gain_01
-      trade_gain_02
-      trade_commercial_treaty
+      economic/unlock_shared_dropsites
+      trade/trade_convoys_speed
+      trade/trade_convoys_armor
+      trade/trade_gain_01
+      trade/trade_gain_02
+      trade/trade_commercial_treaty
     </Technologies>
     <Entities datatype="tokens">
       units/{civ}_support_trader

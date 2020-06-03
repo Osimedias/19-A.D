@@ -41,10 +41,6 @@
       units/{civ}_cavalry_spearman
       units/{civ}_cavalry_dragon
     </Entities>
-    <Technologies datatype="tokens">
-      heal_barracks
-      training_conscription
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

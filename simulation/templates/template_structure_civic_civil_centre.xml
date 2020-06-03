@@ -105,11 +105,11 @@
     <Entities datatype="tokens">
       units/{civ}_support_female_citizen
       units/{civ}_support_peasent
-      units/{civ}_infantry_merc_outlaw
     </Entities>
     <Technologies datatype="tokens">
-      phase_town_{civ}
-      phase_city_{civ}
+      phase/phase_town_{civ}
+      phase/phase_city_{civ}
+      military/unlock_shared_los
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>

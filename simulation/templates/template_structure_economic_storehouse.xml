@@ -37,18 +37,15 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      gather_lumbering_ironaxes
-      gather_lumbering_strongeraxes
-      gather_lumbering_sharpaxes
-      gather_mining_servants
-      gather_mining_serfs
-      gather_mining_slaves
-      gather_mining_wedgemallet
-      gather_mining_shaftmining
-      gather_mining_silvermining
-      gather_capacity_basket
-      gather_capacity_wheelbarrow
-      gather_capacity_carts
+      economic/gather_lumbering_basic
+      economic/gather_lumbering_normal
+      economic/gather_lumbering_advance
+      economic/gather_mining_basic
+      economic/gather_mining_normal
+      economic/gather_mining_advance
+      economic/gather_capacity_basic
+      economic/gather_capacity_normal
+      economic/gather_capacity_advance
     </Technologies>
   </ProductionQueue>
   <RallyPoint disable=""/>

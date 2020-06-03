@@ -29,7 +29,7 @@
         <FriendlyFire>true</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
-      <PreferredClasses datatype="tokens">Human Siege Artillery</PreferredClasses>
+      <PreferredClasses datatype="tokens">Human Artillery</PreferredClasses>
     </Ranged>
   </Attack>
   <Capturable>

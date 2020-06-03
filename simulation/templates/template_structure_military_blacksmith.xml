@@ -20,7 +20,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical</Classes>
-    <GenericName>Blacksmith</GenericName>
+    <GenericName>Weapon Storehouse</GenericName>
     <SelectionGroupName>template_structure_military_blacksmith</SelectionGroupName>
     <Icon>structures/blacksmith.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
@@ -36,19 +36,14 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
-      attack_infantry_melee_01
-      attack_infantry_melee_02
-      attack_infantry_ranged_01
-      attack_infantry_ranged_02
-      attack_cavalry_melee_01
-      attack_cavalry_melee_02
-      attack_cavalry_ranged_01
-      attack_cavalry_ranged_02
-      armor_infantry_01
-      armor_infantry_02
-      armor_cav_01
-      armor_cav_02
-      armor_hero_01
+      military/gunpowder_attack_basic
+      military/gunpowder_attack_normal
+      military/gunpowder_attack_advance
+      military/militar_armor_basic
+      military/militar_armor_normal
+      military/militar_armor_advance
+      military/artillery_armor
+      military/artillery_attack
     </Technologies>
   </ProductionQueue>
   <Sound>

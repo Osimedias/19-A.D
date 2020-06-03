@@ -15,7 +15,8 @@
   </Health>
   <Identity>
     <Civ>empire</Civ>
-    <SpecificName>Cuartel</SpecificName>
+    <SpecificName>Academia Militar</SpecificName>
+    <GenericName>War Academy</GenericName>
   </Identity>
   <Loot>
     <wood>20</wood>
