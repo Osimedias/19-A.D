@@ -3,10 +3,10 @@
   <asset>
     <contributor>
       <author>Blender User</author>
-      <authoring_tool>Blender 2.82.7 commit date:2020-03-12, commit time:05:06, hash:375c7dc4caf4</authoring_tool>
+      <authoring_tool>Blender 2.83.0 commit date:2020-06-03, commit time:14:38, hash:211b6c29f771</authoring_tool>
     </contributor>
-    <created>2020-06-03T01:08:15</created>
-    <modified>2020-06-03T01:08:15</modified>
+    <created>2020-06-03T23:58:10</created>
+    <modified>2020-06-03T23:58:10</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -106,7 +106,7 @@
           </technique_common>
         </source>
         <source id="Car_car-skin-bind_poses">
-          <float_array id="Car_car-skin-bind_poses-array" count="96">1 0 1.50996e-7 0 0 -1 0 0 1.50996e-7 0 -1 0 0 0 0 1 1 0 0 0 0 0 1 -3.936334 0 -1 0 -0.03766793 0 0 0 1 1 0 3.01992e-7 -1.464878 0 1 0 -2.877857 -3.01992e-7 0 1 -1.811843 0 0 0 1 1 0 3.01992e-7 1.464877 0 1 -1.50996e-7 -2.877856 -3.01992e-7 1.50996e-7 1 -1.811844 0 0 0 1 1 0 3.01992e-7 -1.464878 0 1 3.25841e-7 4.198983 -3.01992e-7 -3.25841e-7 1 -1.234177 0 0 0 1 1 0 3.01992e-7 1.464877 0 1 0 4.198983 -3.01992e-7 0 1 -1.234177 0 0 0 1</float_array>
+          <float_array id="Car_car-skin-bind_poses-array" count="96">1 -4.13278e-7 4.38311e-5 0 0 -0.9999559 -0.00938487 0 4.36306e-5 0.00938487 -0.995337 0 0 0 0 1 1 0 0 0 4.05825e-7 4.33735e-5 0.9953812 -3.918152 0 -1 0 -0.03766793 0 0 0 1 1 0 0 -1.464878 0 0.9999999 6.48413e-5 -2.877974 6.01731e-7 0 0.9930933 -1.79933 0 0 0 1 1 0 0 1.464877 0 0.9999999 6.48413e-5 -2.877974 6.01731e-7 0 0.9930933 -1.799329 0 0 0 1 1 0 1.53062e-7 -1.464878 0 0.9999999 6.48312e-5 4.198903 4.26371e-7 0 0.9930947 -1.225654 0 0 0 1 1 0 1.53062e-7 1.464877 0 0.9999999 6.48312e-5 4.198904 4.26371e-7 0 0.9930947 -1.225653 0 0 0 1</float_array>
           <technique_common>
             <accessor source="#Car_car-skin-bind_poses-array" count="6" stride="16">
               <param name="TRANSFORM" type="float4x4"/>
@@ -134,33 +134,108 @@
       </skin>
     </controller>
   </library_controllers>
+  <library_animations>
+    <animation id="action_container-Car" name="Car"/>
+  </library_animations>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Car" name="Car" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <node id="Car_root" name="root" sid="root" type="JOINT">
-          <matrix sid="transform">1 7.04433e-15 1.50996e-7 0 -6.15615e-15 -1 8.74228e-8 0 1.50996e-7 -8.74228e-8 -1 0 0 0 0 1</matrix>
+          <matrix sid="transform">1 2.84217e-14 4.40365e-5 0 -4.13278e-7 -0.9999557 0.009428442 0 4.38311e-5 -0.009428442 -1.004596 0 0 0 0 1</matrix>
           <node id="Car_cabin" name="cabin" sid="cabin" type="JOINT">
-            <matrix sid="transform">1 1.50996e-7 0 5.9437e-7 0 0 1 0.03766793 1.50996e-7 -1 -2.13163e-14 -3.936334 0 0 0 1</matrix>
+            <matrix sid="transform">1 4.40345e-5 4.15195e-7 1.7255e-4 -3.53673e-12 -0.009428354 0.9999555 7.24554e-4 4.40364e-5 -0.9999555 -0.009428266 -3.918333 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">0</roll>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">0</tip_y>
+                <tip_z sid="tip_z" type="float">1</tip_z>
+              </technique>
+            </extra>
           </node>
           <node id="Car_prop-raider" name="prop-raider" sid="prop-raider" type="JOINT">
-            <matrix sid="transform">1 1.50996e-7 1.42108e-14 6.11433e-7 2.84217e-14 -2.38418e-7 1 4.802705 1.50996e-7 -1 -2.38419e-7 -4.04934 0 0 0 1</matrix>
+            <matrix sid="transform">1 -4.13274e-7 4.43393e-5 1.71193e-4 2.85578e-9 -0.999956 -0.009384871 4.709758 4.44419e-5 0.009384871 -1.002259 -3.887537 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">0</roll>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">1</tip_y>
+                <tip_z sid="tip_z" type="float">0</tip_z>
+              </technique>
+            </extra>
           </node>
           <node id="Car_prop-horse" name="prop-horse" sid="prop-horse" type="JOINT">
-            <matrix sid="transform">1 1.50996e-7 0 -5.68775e-9 0 0 1 8.531864 1.50996e-7 -1 -2.13163e-14 0.0376679 0 0 0 1</matrix>
+            <matrix sid="transform">1 1.51407e-7 4.34263e-5 4.34375e-6 -6.03527e-7 -0.9999942 0.003438213 8.512478 4.34248e-5 -0.003438212 -1 -0.09863988 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">0</roll>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">1.600902</tip_y>
+                <tip_z sid="tip_z" type="float">0.02062511</tip_z>
+              </technique>
+            </extra>
           </node>
           <node id="Car_w_back_r" name="w_back_r" sid="w_back_r" type="JOINT">
-            <matrix sid="transform">1 0 -1.50996e-7 1.464878 0 -1 0 -2.877857 -1.50996e-7 0 -1 -1.811843 0 0 0 1</matrix>
+            <matrix sid="transform">1 -4.76837e-7 4.40993e-5 1.464956 -6.28051e-8 -0.999956 -0.009384874 -2.894734 4.42343e-5 0.009384874 -1.00226 -1.776322 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">-3.01992e-7</roll>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">1</tip_y>
+                <tip_z sid="tip_z" type="float">0</tip_z>
+              </technique>
+            </extra>
           </node>
           <node id="Car_w_back_l" name="w_back_l" sid="w_back_l" type="JOINT">
-            <matrix sid="transform">1 1.80001e-14 -1.50996e-7 -1.464877 -1.80001e-14 -1 -2.38419e-7 -2.877857 -1.50996e-7 2.38419e-7 -1 -1.811843 0 0 0 1</matrix>
+            <matrix sid="transform">1 -4.76837e-7 4.40993e-5 -1.464799 -6.28051e-8 -0.999956 -0.009384874 -2.894734 4.42343e-5 0.009384874 -1.00226 -1.77645 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">-3.01992e-7</roll>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">1</tip_y>
+                <tip_z sid="tip_z" type="float">0</tip_z>
+              </technique>
+            </extra>
           </node>
           <node id="Car_w_front_r" name="w_front_r" sid="w_front_r" type="JOINT">
-            <matrix sid="transform">1 -1.80001e-14 -1.50996e-7 1.464878 1.80001e-14 -1 2.38419e-7 4.198983 -1.50996e-7 -2.38419e-7 -1 -1.234176 0 0 0 1</matrix>
+            <matrix sid="transform">1 -3.57628e-7 4.39818e-5 1.464933 5.50245e-8 -0.999956 -0.009384871 4.187216 4.40575e-5 0.009384871 -1.002259 -1.267764 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">-3.01992e-7</roll>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">1</tip_y>
+                <tip_z sid="tip_z" type="float">1.19209e-7</tip_z>
+              </technique>
+            </extra>
           </node>
           <node id="Car_w_front_l" name="w_front_l" sid="w_front_l" type="JOINT">
-            <matrix sid="transform">1 0 -1.50996e-7 -1.464877 0 -1 0 4.198983 -1.50996e-7 0 -1 -1.234177 0 0 0 1</matrix>
+            <matrix sid="transform">1 -3.57628e-7 4.39818e-5 -1.464822 5.50245e-8 -0.999956 -0.009384871 4.187216 4.40575e-5 0.009384871 -1.002259 -1.267892 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">-3.01992e-7</roll>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">1</tip_y>
+                <tip_z sid="tip_z" type="float">1.19209e-7</tip_z>
+              </technique>
+            </extra>
           </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <roll sid="roll" type="float">4.36306e-5</roll>
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">-0.9999555</tip_y>
+              <tip_z sid="tip_z" type="float">-0.009428441</tip_z>
+            </technique>
+          </extra>
         </node>
         <node id="car" name="car" type="NODE">
           <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>

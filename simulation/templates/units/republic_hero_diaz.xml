@@ -11,6 +11,6 @@
     <Icon>units/diaz.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/republica/diaz_r.xml</Actor>
+    <Actor>units/republica/cavalry_diaz.xml</Actor>
   </VisualActor>
 </Entity>

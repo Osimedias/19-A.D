@@ -7,6 +7,7 @@
       <props>
         <prop actor="units/republica/zaragoza_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/horse_char.xml" attachpoint="saddle"/>
+        <prop actor="props/horse/chest_colorband_02.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
