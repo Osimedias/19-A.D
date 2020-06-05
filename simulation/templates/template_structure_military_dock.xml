@@ -48,8 +48,9 @@
     <Entities datatype="tokens">
       units/{civ}_ship_fishing
       units/{civ}_ship_merchant
-      units/{civ}_ship_bireme
-      units/{civ}_ship_trireme
+      units/{civ}_ship_carraca
+      units/{civ}_ship_galleon
+      units/{civ}_ship_monitor
     </Entities>
     <Technologies datatype="tokens">
       gather_capacity_fishing

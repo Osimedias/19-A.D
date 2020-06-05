@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.0 commit date:2020-06-03, commit time:14:38, hash:211b6c29f771</authoring_tool>
     </contributor>
-    <created>2020-06-04T19:04:57</created>
-    <modified>2020-06-04T19:04:57</modified>
+    <created>2020-06-04T22:17:39</created>
+    <modified>2020-06-04T22:17:39</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -96,7 +96,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Belas" name="Belas" type="NODE">
-        <matrix sid="transform">1.94707e-7 -1.34359e-7 1 2.15433e-15 0 1 1.34359e-7 11.59078 -1 -2.61606e-14 1.94707e-7 12.64544 0 0 0 1</matrix>
+        <matrix sid="transform">2.68253e-7 -1.8511e-7 1.377726 0.2348256 0 1.377726 1.8511e-7 15.52786 -1.377726 -3.60422e-14 2.68253e-7 15.12037 0 0 0 1</matrix>
         <instance_geometry url="#Plane_004-mesh" name="Belas">
           <bind_material>
             <technique_common>

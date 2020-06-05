@@ -15,7 +15,8 @@
   </Health>
   <Identity>
     <Civ>republic</Civ>
-    <SpecificName>Carabela</SpecificName>
+    <SpecificName>Carraca</SpecificName>
+    <GenericName>Carraca</GenericName>
     <Icon>units/celt_ship_trireme.png</Icon>
   </Identity>
   <UnitMotion>
