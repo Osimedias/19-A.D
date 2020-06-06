@@ -74,7 +74,7 @@
     <GenericName>Fortress</GenericName>
     <SelectionGroupName>template_structure_military_fortress</SelectionGroupName>
     <Icon>structures/fortress.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>phase/phase_city</RequiredTechnology>
     <Tooltip>Train Champions and Heroes and research technologies. Garrison Soldiers for additional arrows.</Tooltip>
   </Identity>
   <Loot>
@@ -86,9 +86,6 @@
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Technologies datatype="tokens">
-      attack_soldiers_will
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

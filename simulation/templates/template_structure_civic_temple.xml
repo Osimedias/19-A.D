@@ -35,7 +35,7 @@
     <Tooltip>Train Healers and research healing technologies. Garrison units to heal them at a quick rate.</Tooltip>
     <VisibleClasses datatype="tokens">Town Temple</VisibleClasses>
     <Icon>structures/temple.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase/phase_town</RequiredTechnology>
   </Identity>
   <Loot>
     <stone>60</stone>
@@ -49,12 +49,12 @@
       units/{civ}_support_healer_b
     </Entities>
     <Technologies datatype="tokens">
-      heal_range
-      heal_range_2
-      heal_rate
-      heal_rate_2
-      heal_temple
-      health_regen_units
+      economic/heal_range
+      economic/heal_range_2
+      economic/heal_rate
+      economic/heal_rate_2
+      economic/heal_temple
+      economic/health_regen_units
     </Technologies>
   </ProductionQueue>
   <Sound>

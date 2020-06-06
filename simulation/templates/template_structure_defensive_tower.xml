@@ -50,6 +50,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Tower</Classes>
+    <RequiredTechnology>phase/phase_town</RequiredTechnology>
   </Identity>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>

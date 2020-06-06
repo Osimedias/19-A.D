@@ -89,6 +89,7 @@
     <Classes datatype="tokens">Defensive CivCentre</Classes>
     <VisibleClasses datatype="tokens">CivilCentre</VisibleClasses>
     <SelectionGroupName>template_structure_civic_civil_centre</SelectionGroupName>
+    <RequiredTechnology>phase/phase_town</RequiredTechnology>
     <Icon>structures/civic_centre.png</Icon>
   </Identity>
   <Loot>

@@ -39,8 +39,7 @@
       units/{civ}_infantry_fusiler
     </Entities>
     <Technologies datatype="tokens">
-      heal_barracks
-      training_conscription
+      military/heal_barracks
     </Technologies>
   </ProductionQueue>
   <Sound>

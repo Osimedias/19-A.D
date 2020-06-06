@@ -35,6 +35,7 @@
     <Tooltip>Increase the population limit.</Tooltip>
     <VisibleClasses datatype="tokens">Village House</VisibleClasses>
     <SelectionGroupName>template_structure_civic_house</SelectionGroupName>
+    <RequiredTechnology>phase/phase_city</RequiredTechnology>
     <Icon>structures/house.png</Icon>
   </Identity>
   <Loot>
@@ -48,14 +49,7 @@
     <Entities datatype="tokens">
       units/{civ}_support_female_citizen_house
       units/{civ}_support_peasent_citizen
-      units/{civ}_infantry_merc_outlaw
     </Entities>
-    <Technologies datatype="tokens">
-      health_females_01
-      pop_house_01
-      pop_house_02
-      unlock_females_house
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

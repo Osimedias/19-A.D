@@ -26,21 +26,17 @@
   </Attack>
   <Builder>
     <Rate>1.25</Rate>
-	<Entities datatype="tokens">
+    <Entities datatype="tokens">
       structures/{civ}_civil_centre
       structures/{civ}_military_colony
       structures/{civ}_house
       structures/{civ}_storehouse
       structures/{civ}_farmstead
       structures/{civ}_field
-      structures/{civ}_rotarymill
       structures/{civ}_corral
       structures/{civ}_dock
-      structures/{civ}_market
       structures/{civ}_temple
-      structures/{civ}_theater
-      structures/{civ}_library
-      structures/{civ}_wonder
+      structures/{civ}_market
     </Entities>
   </Builder>
   <Cost>
@@ -61,11 +57,7 @@
 	</Phenotype>
 	<VisibleClasses datatype="tokens">Builder Gatherer Citizen</VisibleClasses>
 	<Classes datatype="tokens">Worker Civilian</Classes>
-	<Tooltip>Build civilian buildings and gather resources. Command nearby Slaves to work faster. Especially good at building.
-Traits: Low Cost, Low Health, Slow Speed, Light Armor, Weak Attack, Avoids Death.
-Good at: Building and Dying.
-Mediocre at: Gathering Resources.
-Bad at: Fighting.</Tooltip>
+	<Tooltip>Build  buildings and gather resources.</Tooltip>
     <Icon>units/imp_support_citizen.png</Icon>
 	<Formations disable=""/>
   </Identity>

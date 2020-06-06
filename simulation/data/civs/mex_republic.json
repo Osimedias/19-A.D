@@ -1,11 +1,17 @@
 {
-	"Code":"republic",
+	"Code":"mex_republic",
 	"Culture":"norten-mexican",
 	"Name":"Mexican Republic",
 	"Emblem":"session/portraits/emblems/emblem_mex_re.png",
 	"History":"N/A",
-	"Music":[],
-	"Factions":[{
+	"Music":[
+			{"File":"An_old_Warhorse_goes_to_Pasture.ogg", "Type":"peace"},
+			{"File":"Celtica.ogg", "Type":"peace"},
+			{"File":"Harsh_Lands_Rugged_People.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+	     {
 		"Name":"Partido Liberal",
 		"Description":"N/A",
 		"Technologies":
@@ -19,14 +25,14 @@
 			"Heroes":
 			[
 				{
-					"Name":"Benito Juarez",
+					"Name":"Wandering Republic(Juarez)",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
 					"History":"."
 				},
 				{
-					"Name":"Ignasio Zaragoza",
+					"Name":"Ignacio Zaragoza",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
@@ -86,28 +92,36 @@
 	],
 	"WallSets":[
 		"structures/wallset_paliside",
-		"structures/rome_wallset_stone"
+		"structures/iber_wallset_stone"
 	],
 	"StartEntities":[
 		{
-			"Template":"structures/republic_civic_center"
+			"Template":"structures/mex_republic_civic_center"
 		},
 		{
-			"Template":"units/republic_support_peasent",
+			"Template":"units/mex_republic_support_peasent",
 			"Count": 5
 		},
 		{
-			"Template":"units/republic_infantry_machetero_b",
+			"Template":"units/mex_republic_infantry_machetero",
 			"Count": 5
 		},
 		{
-			"Template":"units/republic_cavalry_spearman_b"
+			"Template":"units/mex_republic_cavalry_spearman"
 		}
 	],
-	"Formations":[
+	"Formations":
+	[
 		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
 		"special/formations/line_open",
-		"special/formations/battel_line"
+		"special/formations/flank",
+		"special/formations/battle_line",
+		"special/formations/skirmish",
+		"special/formations/wedge"
 	],
 	"AINames":[
 		"Benito Juarez",

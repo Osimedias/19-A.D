@@ -3,9 +3,6 @@
   <castshadow/>
   <group>
     <variant name="Base">
-      <props>
-        <prop actor="props/special/common/flag_empire_masive.xml" attachpoint="flag_zocalo"/>
-      </props>
       <textures>
         <texture file="structural/mexican_struct_north.png" name="baseTex"/>
       </textures>

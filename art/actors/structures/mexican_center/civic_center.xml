@@ -6,7 +6,6 @@
       <mesh>structural/empire/civic_center.dae</mesh>
       <props>
         <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
-        <prop actor="props/special/common/flag_empire.xml" attachpoint="civic_center_flag"/>
       </props>
       <textures>
         <texture file="structural/mexican_struct_north.png" name="baseTex"/>

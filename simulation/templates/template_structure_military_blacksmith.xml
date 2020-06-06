@@ -23,7 +23,7 @@
     <GenericName>Weapon Storehouse</GenericName>
     <SelectionGroupName>template_structure_military_blacksmith</SelectionGroupName>
     <Icon>structures/blacksmith.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase/phase_town</RequiredTechnology>
     <Tooltip>Research weapons and armor improvements.</Tooltip>
     <VisibleClasses datatype="tokens">Town Blacksmith</VisibleClasses>
   </Identity>
@@ -36,9 +36,9 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
-      military/gunpowder_attack_basic
-      military/gunpowder_attack_normal
-      military/gunpowder_attack_advance
+      military/gunpownder_attack_basic
+      military/gunpownder_attack_normal
+      military/gunpownder_attack_advance
       military/militar_armor_basic
       military/militar_armor_normal
       military/militar_armor_advance

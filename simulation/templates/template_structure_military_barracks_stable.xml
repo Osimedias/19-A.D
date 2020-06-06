@@ -24,7 +24,7 @@
     <Tooltip>Train citizen-soldiers. Research training improvements.</Tooltip>
     <VisibleClasses datatype="tokens">Village Barracks</VisibleClasses>
     <Icon>structures/barracks.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase/phase_village</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Static width="17.0" depth="17.0"/>

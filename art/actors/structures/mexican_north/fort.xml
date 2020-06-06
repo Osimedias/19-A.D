@@ -6,7 +6,6 @@
       <mesh>structural/republic/fort.dae</mesh>
       <props>
         <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
-        <prop actor="props/special/common/flag_republic.xml" attachpoint="flag_fort"/>
       </props>
       <textures>
         <texture file="structural/mexican_struct_north.png" name="baseTex"/>

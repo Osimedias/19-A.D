@@ -5,7 +5,6 @@
     <variant>
       <mesh>skeletal/horse.dae</mesh>
       <props>
-        <prop actor="units/republica/cavalry_dragon_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/horse_char.xml" attachpoint="saddle"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
         <prop actor="props/horse/chest_colorband_02.xml" attachpoint="root"/>

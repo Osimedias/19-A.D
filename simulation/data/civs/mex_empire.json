@@ -1,10 +1,14 @@
 {
-	"Code":"empire",
+	"Code":"mex_empire",
 	"Culture":"center-mexican",
 	"Name":"Mexican Monarchists",
 	"Emblem":"session/portraits/emblems/emblem_mex_mon.png",
 	"History":"N/A",
-	"Music":[],
+	"Music":[
+			{"File":"An_old_Warhorse_goes_to_Pasture.ogg", "Type":"peace"},
+			{"File":"Celtica.ogg", "Type":"peace"},
+			{"File":"Harsh_Lands_Rugged_People.ogg", "Type":"peace"}
+		],
 	"Factions":[{
 		"Name":"Partido Conservador",
 		"Description":"N/A",
@@ -19,7 +23,7 @@
 			"Heroes":
 			[
 				{
-					"Name":"",
+					"Name":"Maximillian I",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
@@ -95,28 +99,36 @@
 	],
 	"WallSets":[
 		"structures/wallset_paliside",
-		"structures/wallset_stone"
+		"structures/iber_wallset_stone"
 	],
 	"StartEntities":[
 		{
-			"Template":"structures/monarchists_civic_center"
+			"Template":"structures/mex_empire_civic_center"
 		},
 		{
-			"Template":"units/monarchists_support_chilango",
+			"Template":"units/mex_empire_support_chilango",
 			"Count": 5
 		},
 		{
-			"Template":"units/monarchists_infantry_zovau_b",
+			"Template":"units/mex_empire_infantry_gerrilla_b",
 			"Count": 5
 		},
 		{
-			"Template":"units/monarchists_cavalry_spearman_b"
+			"Template":"units/mex_empire_cavalry_spearman"
 		}
 	],
-	"Formations":[
+	"Formations":
+	[
 		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
 		"special/formations/line_open",
-		"special/formations/battel_line"
+		"special/formations/flank",
+		"special/formations/battle_line",
+		"special/formations/skirmish",
+		"special/formations/wedge"
 	],
 	"AINames":[
 		"Maximilian I of Mexico",

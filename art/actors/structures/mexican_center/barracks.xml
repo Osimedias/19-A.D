@@ -4,9 +4,6 @@
   <group>
     <variant frequency="100" name="Mexican Empire Barracks">
       <mesh>structural/empire/barracks.dae</mesh>
-      <props>
-        <prop actor="props/special/common/flag_empire.xml" attachpoint="barracks_flag"/>
-      </props>
       <textures>
         <texture file="structural/mexican_struct_north.png" name="baseTex"/>
         <texture file="structural/mexican_struct_north_norm.png" name="normTex"/>

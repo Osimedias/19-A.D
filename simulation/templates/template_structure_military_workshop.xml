@@ -25,7 +25,7 @@
     <GenericName>Arsenal</GenericName>
     <SelectionGroupName>template_structure_military_workshop</SelectionGroupName>
     <Icon>structures/siege_workshop.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>phase/phase_city</RequiredTechnology>
     <Tooltip>Construct Siege Engines and research Siege Engine technologies.</Tooltip>
     <VisibleClasses datatype="tokens">City Workshop</VisibleClasses>
   </Identity>
@@ -43,9 +43,9 @@
       units/{civ}_artillery_mortal_packed
     </Entities>
     <Technologies datatype="tokens">
-    	military/gunpowder_attack_basic
-    	military/gunpowder_attack_normal
-    	military/gunpowder_attack_advance
+    	military/gunpownder_attack_basic
+    	military/gunpownder_attack_normal
+    	military/gunpownder_attack_advance
     	military/militar_armor_basic
     	military/militar_armor_normal
     	military/militar_armor_advance

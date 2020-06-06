@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre_military_colony">
+  <Footprint>
+    <Square width="31" depth="31"/>
+    <Height>8</Height>
+  </Footprint>
+  <Identity>
+    <Civ>mex_republic</Civ>
+    <SpecificName>Consulado Estadounidence</SpecificName>
+    <GenericName>Union Consulate</GenericName>
+    <Tooltip>Send Union soliders and some technologies.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="29" depth="29"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_cavalry_usa_dragoon
+      units/{civ}_infantry_usa_private
+      units/{civ}_cavalry_usa_firbustero
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/mexican_north/embassy.xml</Actor>
+    <FoundationActor>structures/fndn_9x9.xml</FoundationActor>
+  </VisualActor>
+</Entity>

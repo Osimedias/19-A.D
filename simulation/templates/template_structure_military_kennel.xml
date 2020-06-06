@@ -41,7 +41,7 @@
     <SelectionGroupName>template_structure_military_kennel</SelectionGroupName>
     <Tooltip>Train war dogs.</Tooltip>
     <Icon>structures/kennel.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase/phase_town</RequiredTechnology>
   </Identity>
   <Loot>
     <wood>10</wood>

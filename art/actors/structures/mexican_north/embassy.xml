@@ -4,9 +4,6 @@
   <group>
     <variant frequency="100" name="USA Embassy">
       <mesh>structural/republic/usa_consulate.dae</mesh>
-      <props>
-        <prop actor="props/special/common/flag_usa.xml" attachpoint="usa_flag"/>
-      </props>
       <textures>
         <texture file="structural/union_struct.png" name="baseTex"/>
         <texture file="structural/union_struct_norm.png" name="normTex"/>

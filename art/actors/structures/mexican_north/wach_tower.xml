@@ -6,7 +6,6 @@
       <mesh>structural/republic/wach_tower.dae</mesh>
       <props>
         <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
-        <prop actor="props/special/common/flag_republic.xml" attachpoint="flag_blockout"/>
       </props>
       <textures>
         <texture file="structural/mexican_struct_north.png" name="baseTex"/>
