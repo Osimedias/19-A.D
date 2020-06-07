@@ -11,6 +11,12 @@
       <MinRange>26.0</MinRange>
       <PrepareTime>5000</PrepareTime>
       <RepeatTime>6000</RepeatTime>
+      <Bonuses>
+        <BonusRange>
+          <Classes>Structures Human Artillery</Classes>
+          <Multiplier>3.0</Multiplier>
+        </BonusRange>
+      </Bonuses>
       <Delay>0</Delay>
       <Splash>
         <Shape>Linear</Shape>
@@ -52,7 +58,8 @@
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged Culverine</VisibleClasses>
-    <GenericName>Bolt Shooter</GenericName>
+    <GenericName>Light Artillery</GenericName>
+    <ToolTip>Anti Artillery</ToolTip>
   </Identity>
   <Loot>
     <xp>200</xp>

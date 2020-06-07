@@ -11,9 +11,15 @@
       <MinRange>26.0</MinRange>
       <PrepareTime>5000</PrepareTime>
       <RepeatTime>6000</RepeatTime>
+      <Bonuses>
+        <BonusRange>
+          <Classes>Structures Human</Classes>
+          <Multiplier>3.0</Multiplier>
+        </BonusRange>
+      </Bonuses>
       <Delay>0</Delay>
       <Splash>
-        <Shape>Linear</Shape>
+        <Shape>Circular</Shape>
         <Range>8.0</Range>
         <FriendlyFire>false</FriendlyFire>
         <Damage>
@@ -52,7 +58,7 @@
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged Mortal</VisibleClasses>
-    <GenericName>Bolt Shooter</GenericName>
+    <GenericName>Siege Artillery</GenericName>
   </Identity>
   <Loot>
     <xp>200</xp>
