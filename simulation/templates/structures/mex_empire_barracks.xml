@@ -38,15 +38,6 @@
 	  <Variant>upgrading</Variant>
     </Stable>
   </Upgrade>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_champion_infantry_barracks
-      units/{civ}_champion_cavalry_barracks
-    </Entities>
-    <Technologies datatype="tokens">
-      unlock_champion_units
-    </Technologies>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/mexican_center/barracks.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

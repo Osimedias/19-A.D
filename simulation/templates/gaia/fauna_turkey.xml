@@ -10,7 +10,7 @@
   <Identity>
     <GenericName>Turkey</GenericName>
     <SpecificName>Huaxolotl(Guajolote)</SpecificName>
-    <Icon>gaia/fauna_chicken.png</Icon>
+    <Icon>gaia/fauna_turkey.png</Icon>
   </Identity>
   <Obstruction>
     <BlockMovement>false</BlockMovement>

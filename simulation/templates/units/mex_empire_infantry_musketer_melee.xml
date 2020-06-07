@@ -31,8 +31,8 @@
   </Identity>
   <Upgrade>
     <Range>
-      <Entity>units/{civ}_infantry_fusiler</Entity>
-      <Tooltip>Use the rifle.</Tooltip>
+      <Entity>units/{civ}_infantry_musketer</Entity>
+      <Tooltip>Use the musketer.</Tooltip>
       <Time>100</Time>
       <Variant>upgrading</Variant>
     </Range>

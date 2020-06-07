@@ -11,7 +11,7 @@
   </Identity>
   <Upgrade>
     <Range>
-      <Entity>units/{civ}_infantry_fusiler_melee</Entity>
+      <Entity>units/{civ}_infantry_musketer_melee</Entity>
       <Tooltip>Use the bayonet.</Tooltip>
       <Time>100</Time>
       <Variant>upgrading</Variant>
@@ -19,6 +19,6 @@
   </Upgrade>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/republica/infantry_gn_ranged</Actor>
+    <Actor>units/maximilian/infantry_zuavo</Actor>
   </VisualActor>
 </Entity>

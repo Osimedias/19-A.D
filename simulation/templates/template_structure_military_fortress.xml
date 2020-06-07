@@ -86,6 +86,16 @@
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_infantry_pikeman
+      units/{civ}_infantry_machetero
+      units/{civ}_infantry_guerrilla
+      units/{civ}_infantry_muskqueter
+      units/{civ}_infantry_fusiler
+      units/{civ}_cavalry_swordsman
+      units/{civ}_cavalry_spearman
+      units/{civ}_cavalry_dragon
+    </Entities>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

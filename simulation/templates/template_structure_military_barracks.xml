@@ -35,7 +35,7 @@
       units/{civ}_infantry_pikeman
       units/{civ}_infantry_machetero
       units/{civ}_infantry_guerrilla
-      units/{civ}_infantry_muskqueter
+      units/{civ}_infantry_musketer
       units/{civ}_infantry_fusiler
     </Entities>
     <Technologies datatype="tokens">

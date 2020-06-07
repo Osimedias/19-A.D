@@ -7,9 +7,9 @@
     </Resources>
   </Cost>
   <Visibility>
-    <RetainInFog>false</RetainInFog>
+    <RetainInFog>true</RetainInFog>
   </Visibility>
   <VisualActor>
-    <Actor>fauna/sheep1.xml</Actor>
+    <Actor>fauna/turkey.xml</Actor>
   </VisualActor>
 </Entity>
