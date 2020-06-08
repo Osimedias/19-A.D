@@ -3,7 +3,7 @@
 	"description": "Increases wood gathering rates for trees.",
 	"cost": { "food": 0, "wood": 100, "stone": 150, "metal": 150 },
 	"supersedes": "economic/gather_lumbering_basic",
-	"requirements": { "tech": "phase_town" },
+	"requirements": { "tech": "phase/phase_town" },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "wood_axe.png",
 	"researchTime": 40,

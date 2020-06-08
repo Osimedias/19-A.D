@@ -1,9 +1,5 @@
 {
 	"genericName": "City Phase",
-	"specificName": {
-		"mace": "Megalópolis",
-		"spart": "Megalópolis"
-	},
 	"description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
 	"cost": { "food": 0, "wood": 0, "stone": 750, "metal": 750 },
 	"requirements": { "entity": { "class": "Town", "number": 4 } },

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="6">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.898039"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.298039" g="0.34902" b="0.698039"/>
+				<Tint r="0.278431" g="0.298039" b="0.588235"/>
+				<Height>246.261</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="1576.6" y="898.479" z="321.084"/>
+		<Rotation angle="-1.37838"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "CircularMap": true,
+  "Description": "Map for testing Ships of this mod",
+  "Keywords": [
+    "demo",
+    "naval"
+  ],
+  "LockTeams": false,
+  "Name": "Ship and Boats for 19 A.D. (Testing Map)",
+  "PlayerData": [
+    null,
+    {
+      "Civ": "mex_republic"
+    },
+    {
+      "Civ": "cart"
+    }
+  ],
+  "Preview": "",
+  "RevealMap": true,
+  "VictoryConditions": []
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>units/maximilian_ship_steamboat</Template>
+			<Player>1</Player>
+			<Position x="466.59427" z="297.59272"/>
+			<Orientation y="-2.282"/>
+			<Actor seed="5799"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>units/mex_republic_ship_carrack</Template>
+			<Player>1</Player>
+			<Position x="555.18598" z="471.23118"/>
+			<Orientation y="1.59203"/>
+			<Actor seed="46374"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>units/mex_republic_ship_fishing</Template>
+			<Player>1</Player>
+			<Position x="531.65955" z="616.68915"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6311"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

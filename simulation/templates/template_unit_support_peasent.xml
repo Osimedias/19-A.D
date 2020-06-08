@@ -16,8 +16,9 @@
   <Identity>
     <VisibleClasses datatype="tokens">Worker</VisibleClasses>
     <GenericName>Peasent</GenericName>
-    <SelectionGroupName>template_unit_support_slave</SelectionGroupName>
+    <SelectionGroupName>template_unit_support_peasent</SelectionGroupName>
     <Tooltip>Gatherer. Can get more resources.</Tooltip>
+    <Phenotype>male</Phenotype>
   </Identity>
   <Loot>
     <xp>1</xp>

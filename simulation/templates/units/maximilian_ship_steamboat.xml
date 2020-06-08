@@ -14,15 +14,16 @@
     <Max op="add">200</Max>
   </Health>
   <Identity>
-    <Civ>mex_republic</Civ>
-    <SpecificName>Carraca</SpecificName>
-    <GenericName>Carraca</GenericName>
-    <Icon>units/celt_ship_trireme.png</Icon>
+    <Civ>maximilian</Civ>
+    <SpecificName>Bateau à Vapeur</SpecificName>
+    <GenericName>Steamboat</GenericName>
+    <Tooltip>Steam boat brought from France to help pacify this new nation.</Tooltip>
+    <Icon>units/steamboat.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">0.9</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/ships/carabel_base.xml</Actor>
+    <Actor>units/ships/steamboat.xml</Actor>
   </VisualActor>
 </Entity>

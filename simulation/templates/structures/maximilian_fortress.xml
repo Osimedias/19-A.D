@@ -7,7 +7,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>mex_empire</Civ>
+    <Civ>maximilian</Civ>
     <SpecificName>Fuerte</SpecificName>
   </Identity>
   <Obstruction>

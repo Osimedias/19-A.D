@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_infantry">
   <Identity>
-    <Civ>mex_empire</Civ>
+    <Civ>maximilian</Civ>
     <VisibleClasses datatype="tokens">Infantry</VisibleClasses>
     <Lang>latin</Lang>
     <SelectionGroupName>units/republic_gn</SelectionGroupName>

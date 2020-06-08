@@ -1,7 +1,7 @@
 {
-	"Code":"mex_empire",
+	"Code":"maximilian",
 	"Culture":"center-mexican",
-	"Name":"Mexican Monarchists",
+	"Name":"Mexican Empire",
 	"Emblem":"session/portraits/emblems/emblem_mex_mon.png",
 	"History":"N/A",
 	"Music":[
@@ -10,7 +10,7 @@
 			{"File":"Harsh_Lands_Rugged_People.ogg", "Type":"peace"}
 		],
 	"Factions":[{
-		"Name":"Partido Conservador",
+		"Name":"Monarquicos",
 		"Description":"N/A",
 		"Technologies":
 			[
@@ -99,22 +99,22 @@
 	],
 	"WallSets":[
 		"structures/wallset_paliside",
-		"structures/iber_wallset_stone"
+		"structures/maximilian_wallset_stone"
 	],
 	"StartEntities":[
 		{
-			"Template":"structures/mex_empire_civic_center"
+			"Template":"structures/maximilian_civic_center"
 		},
 		{
-			"Template":"units/mex_empire_support_chilango",
+			"Template":"units/maximilian_support_chilango",
 			"Count": 5
 		},
 		{
-			"Template":"units/mex_empire_infantry_gerrilla_b",
+			"Template":"units/maximilian_infantry_gerrilla_b",
 			"Count": 5
 		},
 		{
-			"Template":"units/mex_empire_cavalry_spearman"
+			"Template":"units/maximilian_cavalry_swordsman"
 		}
 	],
 	"Formations":

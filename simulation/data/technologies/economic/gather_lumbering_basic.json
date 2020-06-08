@@ -2,7 +2,7 @@
 	"genericName": "Stronger Ax",
 	"description": "Increases wood gathering rates for trees.",
 	"cost": { "food": 0, "wood": 50, "stone": 0, "metal": 50 },
-	"requirements": { "tech": "phase_villager" },
+	"requirements": { "tech": "phase/phase_villager" },
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "wood_axe.png",
 	"researchTime": 40,

@@ -19,18 +19,18 @@
     <Ranged>
       <Damage>
         <Hack>0.0</Hack>
-        <Pierce>120.0</Pierce>
+        <Pierce>12.0</Pierce>
         <Crush>0.0</Crush>
       </Damage>
-      <MaxRange>75.0</MaxRange>
+      <MaxRange>72.0</MaxRange>
       <MinRange>0.0</MinRange>
-      <PrepareTime>640</PrepareTime>
-      <RepeatTime>4000</RepeatTime>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
       <Delay>0</Delay>
       <Projectile>
-        <Speed>350.0</Speed>
+        <Speed>75.0</Speed>
         <Spread>1.5</Spread>
-        <Gravity>39.81</Gravity>
+        <Gravity>9.81</Gravity>
         <FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
@@ -89,7 +89,6 @@
     <Classes datatype="tokens">Defensive CivCentre</Classes>
     <VisibleClasses datatype="tokens">CivilCentre</VisibleClasses>
     <SelectionGroupName>template_structure_civic_civil_centre</SelectionGroupName>
-    <RequiredTechnology>phase/phase_town</RequiredTechnology>
     <Icon>structures/civic_centre.png</Icon>
   </Identity>
   <Loot>
@@ -105,12 +104,10 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_female_citizen
-      units/{civ}_support_peasent
     </Entities>
     <Technologies datatype="tokens">
       phase/phase_town_{civ}
       phase/phase_city_{civ}
-      military/unlock_shared_los
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>
@@ -120,7 +117,6 @@
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_civ_center.xml</select>
-      <attack_ranged>attack/weapon/musket.xml</attack_ranged>
       <constructed>interface/complete/building/complete_civ_center.xml</constructed>
       <alert_raise>interface/alarm/alarm_alert_0.xml</alert_raise>
       <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>

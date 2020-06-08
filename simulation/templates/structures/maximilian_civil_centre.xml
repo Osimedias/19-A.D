@@ -8,8 +8,8 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_rome_cc</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>mex_empire</Civ>
-    <SpecificName>Alcaldía</SpecificName>
+    <Civ>maximilian</Civ>
+    <SpecificName>Casa Nacional</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="40.0" depth="30.0"/>

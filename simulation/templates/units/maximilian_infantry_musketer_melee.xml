@@ -23,10 +23,10 @@
     <Max>200</Max>
   </Health>
   <Identity>
-    <Civ>mex_empire</Civ>
+    <Civ>maximilian</Civ>
     <Lang>latin</Lang>
     <GenericName>Zuavo Bayonet Infantry</GenericName>
-    <SpecificName>Mexican Bayonet Infantry</SpecificName>
+    <SpecificName>Bayonet Infantry</SpecificName>
     <Icon>units/national_guard.png</Icon>
   </Identity>
   <Upgrade>

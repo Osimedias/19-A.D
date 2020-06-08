@@ -5,7 +5,7 @@
   </BuildingAI>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
-    <Category>Colony</Category>
+    <Category>Embassy</Category>
     <Distance>
       <FromClass>CivilCentre</FromClass>
       <MinDistance>120</MinDistance>
@@ -24,7 +24,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Military Colony</GenericName>
+    <GenericName>Embassy</GenericName>
     <Classes datatype="tokens">Colony</Classes>
     <SelectionGroupName>template_structure_civic_civil_centre_military_colony</SelectionGroupName>
     <Icon>structures/military_settlement.png</Icon>
