@@ -1,9 +1,0 @@
-{
-	"Name": "¿A esto le llamas tacos? HDTP",
-	"Data": {
-		"Action": "addresource",
-		"Type": "food",
-		"DefaultParameter": 1000,
-		"isNumeric": true
-	}
-}

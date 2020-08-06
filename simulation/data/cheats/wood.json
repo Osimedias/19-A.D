@@ -1,9 +1,0 @@
-{
-	"Name": "¡¡EL NORESTE CALIENTE!!",
-	"Data": {
-		"Action": "addresource",
-		"Type": "wood",
-		"DefaultParameter": 1000,
-		"isNumeric": true
-	}
-}

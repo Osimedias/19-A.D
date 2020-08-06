@@ -1,8 +1,8 @@
 {
-	"name": "latinamerica-part-one",
+	"name": "19-ad",
 	"version": "0.0.0",
-	"label": "Iberoamerica History part 1",
+	"label": "Americans",
 	"url": "",
-	"description": "Mod centrado en el conflicto entre Mexico y Francia, conflicto importante ya que dio paso a la identidad de la Republica Mexicana.",
+	"description": "Las independencias de America.",
 	"dependencies": ["0ad>=0.0.24"]
 }
