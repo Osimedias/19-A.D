@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_pants_sleeves.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/realista_hat.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_iber_basic.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/spatha.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/quivers/union_rucksack.xml" attachpoint="back"/>
+      </props>
+      <textures>
+        <texture file="skeletal/SP_uniform_infantry_realista.png" name="normTex"/>
+        <texture file="skeletal/SP_uniform_infantry_realista.png" name="baseTex"/>
+        <texture file="skeletal/SP_uniform_infantry_realista.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_swordsman_fast_ready_shield.xml" name="Swordsman-Fast-Ready-Shield" frequency="1"/>
+    <variant file="biped/rider/death_shield.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

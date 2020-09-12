@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_swordsman">
+  <Identity>
+    <Civ>usa</Civ>
+    <SelectionGroupName>units/usa_cavalry_swordsman_b</SelectionGroupName>
+    <SpecificName>Husar</SpecificName>
+    <GenericName>Husar</GenericName>
+    <Icon>units/brit_cavalry_swordsman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/union/cavalry_swordsman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

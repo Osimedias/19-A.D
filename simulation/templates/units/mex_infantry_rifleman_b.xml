@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_rifleman">
+  <Health>
+    <Max>175</Max>
+  </Health>
+  <Identity>
+    <Civ>mex</Civ>
+    <GenericName>Mexican Infantry</GenericName>
+    <SpecificName>Infanteria Trigarante</SpecificName>
+    <Icon>units/union/infantry_rifleman_ranged_b.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/mexican/infantry_ranged_musket.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -16,13 +16,38 @@
   <EntityLimits>
     <Limits>
       <CivilCentre>1</CivilCentre>
-      <DefenseTower>30</DefenseTower>
+      <Council>1</Council>
+      <Embassy>3</Embassy>
       <Fortress>10</Fortress>
-      <Wonder>1</Wonder>
+      <Gladiator>0</Gladiator>
       <Hero>1</Hero>
-      <UniqueBuilding>5</UniqueBuilding>
-      <InmigrantHouse>25</InmigrantHouse>
+      <Juggernaut>1</Juggernaut>
+      <Library>1</Library>
+      <Lighthouse>1</Lighthouse>
+      <Monument>5</Monument>
+      <Palace>1</Palace>
+      <Pillar>0</Pillar>
+      <PyramidLarge>2</PyramidLarge>
+      <PyramidSmall>4</PyramidSmall>
+      <Stoa>2</Stoa>
+      <TempleOfAmun>1</TempleOfAmun>
+      <TempleOfVesta>1</TempleOfVesta>
+      <Theater>1</Theater>
+      <Tower>30</Tower>
+      <WarDog>20</WarDog>
+      <Wonder>1</Wonder>
     </Limits>
+    <LimitChangers>
+      <Gladiator>
+        <Amphitheater>15</Amphitheater>
+      </Gladiator>
+      <Juggernaut>
+        <PtolemyIV>4</PtolemyIV>
+      </Juggernaut>
+      <Pillar>
+        <Ashoka>5</Ashoka>
+      </Pillar>
+    </LimitChangers>
     <LimitRemovers>
       <CivilCentre>
         <RequiredTechs datatype="tokens">phase_town</RequiredTechs>
@@ -60,44 +85,32 @@
       <wood>0.0</wood>
       <stone>0.0</stone>
       <metal>0.0</metal>
-      <techno>0.0</techno>
-      <politic>0.0</politic>
     </Rates>
     <Interval>1000</Interval>
   </ResourceTrickle>
   <StatisticsTracker>
-	<!-- The summary screen and lobby rankings expect these classes, but additional classes may be added -->
-	<UnitClasses datatype="tokens">
-		Infantry
-		Worker
-		Native
-		NativeVillager
-		FemaleCitizen
-		Slave
-		Champion
-		Hero
-		Artillery
-		Ship
-		Canoe
-		Streamer
-		Domestic
-		Trader
-	</UnitClasses>
-	<StructureClasses datatype="tokens">
-		Villager
-		House
-		ManorHouse
-		InmigrantHouse
-		Economic
-		Church
-		PyramidRuin
-		Outpost
-		Military
-		Fortress
-		CivCentre
-		InmigranCivCentre
-		Wonder
-	</StructureClasses>
+    <!-- The summary screen and lobby rankings expect these classes, but additional classes may be added. -->
+    <UnitClasses datatype="tokens">
+      Cavalry
+      Champion
+      Domestic
+      FemaleCitizen
+      Hero
+      Infantry
+      Ship
+      Siege
+      Trader
+      Worker
+    </UnitClasses>
+    <StructureClasses datatype="tokens">
+      Economic
+      CivCentre
+      Fortress
+      House
+      Military
+      Outpost
+      Wonder
+    </StructureClasses>
   </StatisticsTracker>
   <TechnologyManager/>
 </Entity>

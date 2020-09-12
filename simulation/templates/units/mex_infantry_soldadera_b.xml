@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_skirmisher">
+  <Identity>
+    <Civ>mex</Civ>
+    <GenericName>Femele Skirmisher</GenericName>
+    <SpecificName>Soldadera</SpecificName>
+    <Phenotype>female</Phenotype>
+    <Icon>units/union/infantry_rifleman_ranged_b.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/mexican/soldadera.xml</Actor>
+  </VisualActor>
+</Entity>

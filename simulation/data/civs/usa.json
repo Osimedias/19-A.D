@@ -1,0 +1,56 @@
+{
+	"Code": "usa",
+	"Culture": "usa",
+	"Name": "USA",
+	"Emblem": "session/portraits/emblems/union.png",
+	"History": ".",
+	"Music":[],
+	"Factions":
+	[],
+	"CivBonuses":
+	[],
+	"TeamBonuses":
+	[],
+	"Structures":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/rome_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/usa_civic_center"
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line"
+	],
+	"AINames":
+	[
+		"George Washington",
+		"Benedict Arnold",
+		"Nathanael Greene",
+		"Benjamin Lincoln",
+		"Richard Montgomery",
+		"Tadeusz Kosciuszko",
+		"Kazimierz Pulaski",
+		"Horatio Gates",
+		"Friedrich Wilhelm von Steuben",
+		"Daniel Morgan"
+	],
+	"SkirmishReplacements":
+	{},
+	"SelectableInGameSetup": true
+}

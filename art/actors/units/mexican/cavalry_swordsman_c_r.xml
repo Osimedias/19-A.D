@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_pants_sleeves.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/mexican_solider_hat.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_iber_basic.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/spatha.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="skeletal/MEX_uniform_infantry_conscript.png" name="normTex"/>
+        <texture file="skeletal/MEX_uniform_infantry_conscript.png" name="baseTex"/>
+        <texture file="skeletal/MEX_uniform_infantry_conscript.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_swordsman_fast_ready_shield.xml" name="Swordsman-Fast-Ready-Shield" frequency="1"/>
+    <variant file="biped/rider/death_shield.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
