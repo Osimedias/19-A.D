@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_skirmisher">
+  <Identity>
+    <Civ>spain</Civ>
+    <SpecificName>Realista Nativo</SpecificName>
+    <Icon>units/union/infantry_rifleman_ranged_b.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/spain/infantry_ranged_guerrilla.xml</Actor>
+  </VisualActor>
+</Entity>

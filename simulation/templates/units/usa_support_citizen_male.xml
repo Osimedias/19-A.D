@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_citizen_male">
+  <Identity>
+    <Civ>mex</Civ>
+    <GenericName>Citizen</GenericName>
+    <SpecificName>US Citizen</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/union/citizen_male.xml</Actor>
+  </VisualActor>
+</Entity>

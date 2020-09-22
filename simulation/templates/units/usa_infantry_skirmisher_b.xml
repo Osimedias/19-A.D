@@ -6,11 +6,11 @@
   <Identity>
     <Civ>usa</Civ>
     <GenericName>Skirmisher</GenericName>
-    <SpecificName>Private Skirmisher</SpecificName>
+    <SpecificName>Mountain Man</SpecificName>
     <Icon>units/union/infantry_rifleman_ranged_b.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/union/infantry_private_ranged.xml</Actor>
+    <Actor>units/union/infantry_sk.xml</Actor>
   </VisualActor>
 </Entity>

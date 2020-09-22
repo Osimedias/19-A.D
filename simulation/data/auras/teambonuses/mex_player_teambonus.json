@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Worker","Infantry"],
+	"affectedPlayers": ["ExclusiveMutualAlly"],
+	"modifications": [
+		{"value": "Attack/Ranged/Damage/Crush","add": 1.50},
+		{"value": "Attack/Ranged/Damage/Hack","add" : 1.50},
+		{"value": "Attack/Ranged/Damage/Pierce","add" : 0.50}
+	],
+	"auraName": "",
+	"auraDescription": "Infantry Attack %50."
+}

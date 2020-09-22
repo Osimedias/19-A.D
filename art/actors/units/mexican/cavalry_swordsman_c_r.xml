@@ -8,11 +8,13 @@
         <prop actor="props/units/helmets/mexican_solider_hat.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_iber_basic.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spatha.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shoulders_plates/officer_shoulder_plate_l.xml" attachpoint="shoulderpad_L"/>
+        <prop actor="props/units/shoulders_plates/officer_shoulder_plate_r.xml" attachpoint="shoulderpad_R"/>
       </props>
       <textures>
-        <texture file="skeletal/MEX_uniform_infantry_conscript.png" name="normTex"/>
-        <texture file="skeletal/MEX_uniform_infantry_conscript.png" name="baseTex"/>
-        <texture file="skeletal/MEX_uniform_infantry_conscript.png" name="specTex"/>
+        <texture file="skeletal/MEX_uniform_infantry_officer.png" name="normTex"/>
+        <texture file="skeletal/MEX_uniform_infantry_officer.png" name="baseTex"/>
+        <texture file="skeletal/MEX_uniform_infantry_officer.png" name="specTex"/>
       </textures>
     </variant>
   </group>

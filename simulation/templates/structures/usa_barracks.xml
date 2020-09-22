@@ -14,6 +14,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
+    <Civ>usa</Civ>
     <GenericName>Barracks</GenericName>
     <SpecificName>Barracks</SpecificName>
     <Tooltip>Train soldiers. Research improvements for units.</Tooltip>

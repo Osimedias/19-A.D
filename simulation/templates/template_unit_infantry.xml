@@ -16,35 +16,6 @@
       <MaxRange>2</MaxRange>
     </Slaughter>
   </Attack>
-  <Builder>
-    <Rate>1.0</Rate>
-    <Entities datatype="tokens">
-      structures/{civ}_civic_center
-      structures/{civ}_civic_colony
-      structures/{civ}_house
-      structures/{civ}_storehouse
-      structures/{civ}_farmstead
-      structures/{civ}_field
-      structures/{civ}_corral
-      structures/{civ}_dock
-      structures/{civ}_barracks
-      structures/{civ}_stable
-      structures/{civ}_arsenal
-      structures/{civ}_forge
-      structures/{civ}_church
-      structures/{civ}_congress
-      structures/{civ}_market
-      structures/{civ}_outpost
-      structures/{civ}_blockhouse
-      structures/{civ}_defense_tower
-      structures/{civ}_fort
-      structures/wallset_palisade
-      structures/{civ}_wallset_siege
-      structures/{civ}_wallset_stone
-      structures/{civ}_cathedral
-      structures/{civ}_wonder
-    </Entities>
-  </Builder>
   <Cost>
     <BuildTime>10</BuildTime>
     <Resources>
@@ -85,20 +56,6 @@
       </Damage>
     </Entity>
   </Resistance>
-  <ResourceGatherer>
-    <MaxDistance>2.0</MaxDistance>
-    <BaseSpeed>1.0</BaseSpeed>
-    <Rates>
-      <food.fruit>0.5</food.fruit>
-      <food.grain>0.25</food.grain>
-      <food.meat>1</food.meat>
-      <wood.tree>0.75</wood.tree>
-      <wood.ruins>5</wood.ruins>
-      <stone.rock>0.5</stone.rock>
-      <stone.ruins>2</stone.ruins>
-      <metal.ore>0.5</metal.ore>
-    </Rates>
-  </ResourceGatherer>
   <Sound>
     <SoundGroups>
       <select>voice/{lang}/civ/civ_{phenotype}_select.xml</select>

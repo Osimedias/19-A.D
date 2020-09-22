@@ -46,8 +46,8 @@
       units/{civ}_siege_ballista_packed
       units/{civ}_siege_ram
       units/{civ}_siege_tower
-      units/{civ}_artillery_falconet
-      units/{civ}_artillery_culebrin
+      units/{civ}_artillery_falconet_packed
+      units/{civ}_artillery_culebrin_packed
     </Entities>
     <Technologies datatype="tokens">
       siege_attack

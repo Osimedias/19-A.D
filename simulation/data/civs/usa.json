@@ -21,7 +21,17 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/usa_civic_center"
+			"Template": "structures/usa_civil_centre"
+		},
+		{
+			"Template": "units/usa_support_citizen",
+			"Count": 5
+		},
+		{
+			"Template": "units/usa_support_miner"
+		},
+		{
+			"Template": "units/usa_cavalry_swordsman_b"
 		}
 	],
 	"Formations":

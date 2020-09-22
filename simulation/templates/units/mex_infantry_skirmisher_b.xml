@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mex</Civ>
     <GenericName>Skirmisher</GenericName>
-    <SpecificName>Gerrillero</SpecificName>
+    <SpecificName>Insurgente</SpecificName>
     <Icon>units/union/infantry_rifleman_ranged_b.png</Icon>
   </Identity>
   <Promotion disable=""/>

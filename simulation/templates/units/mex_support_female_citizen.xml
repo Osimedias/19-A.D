@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_support_female_citizen">
+<Entity parent="template_unit_support_citizen_female">
   <Identity>
     <Civ>mex</Civ>
-    <SpecificName>Campesina</SpecificName>
+    <SpecificName>Ciudadana</SpecificName>
     <GenericName>Mexican Woman</GenericName>
     <Icon>units/iber_support_female_citizen.png</Icon>
   </Identity>
@@ -20,6 +20,6 @@
     </Soldadera>
   </Upgrade>
   <VisualActor>
-    <Actor>units/iberians/female_citizen.xml</Actor>
+    <Actor>units/mexican/citizen_female.xml</Actor>
   </VisualActor>
 </Entity>

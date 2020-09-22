@@ -5,16 +5,28 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_pants_sleeves.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/mexican_solider_hat.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_iber_basic.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/rifle.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
       </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="1">
+      <props>
+        <prop actor="props/units/helmets/mexican_solider_hat.xml" attachpoint="helmet"/>
+      </props>
       <textures>
-        <texture file="skeletal/MEX_peasent_a.png" name="normTex"/>
         <texture file="skeletal/MEX_peasent_a.png" name="baseTex"/>
-        <texture file="skeletal/MEX_peasent_a.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="2">
+      <props>
+        <prop actor="props/units/heads/new/rome_head_veteran.xml" attachpoint="head"/>
+      </props>
+      <textures>
+	    <texture file="skeletal/MEX_peasent_a.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -42,5 +54,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_parallax.xml</material>
+  <material>player_trans.xml</material>
 </actor>

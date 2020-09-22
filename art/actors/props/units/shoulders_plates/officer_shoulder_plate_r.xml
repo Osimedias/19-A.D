@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="ruck">
+      <mesh>props/shoulder_pad_officer_r.dae</mesh>
+      <textures>
+        <texture file="props/shoulder_pad_officer.png" name="normTex"/>
+        <texture file="props/shoulder_pad_officer.png" name="baseTex"/>
+        <texture file="props/shoulder_pad_officer.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

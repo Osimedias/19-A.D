@@ -23,9 +23,9 @@
     <GenericName>Stable</GenericName>
     <SelectionGroupName>template_structure_military_stable</SelectionGroupName>
     <Tooltip>Train Cavalry and research Cavalry technologies.</Tooltip>
-    <VisibleClasses datatype="tokens">Town Stable</VisibleClasses>
+    <VisibleClasses datatype="tokens">Village Stable</VisibleClasses>
     <Icon>structures/pers_stable.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Loot>
     <wood>40</wood>
@@ -40,16 +40,14 @@
       units/{civ}_cavalry_axeman_b
       units/{civ}_cavalry_swordsman_b
       units/{civ}_cavalry_spearman_b
-      units/{civ}_cavalry_rifleman_b
-      units/{civ}_cavalry_dragun_b
       units/{civ}_cavalry_javelineer_b
       units/{civ}_cavalry_archer_b
+      units/{civ}_cavalry_dragun_b
       units/{civ}_champion_cavalry
     </Entities>
     <Technologies datatype="tokens">
       heal_barracks
-      speed_cavalry_01
-      speed_cavalry_02
+      cavalry_movement_speed
       persians/training_levy_cavalry
       persians/training_conscription_cavalry
       successors/special_war_horses

@@ -3,6 +3,6 @@
 	"version": "0.0.0",
 	"label": "Americans",
 	"url": "",
-	"description": "Las independencias de America.",
+	"description": "N.",
 	"dependencies": ["0ad>=0.0.24"]
 }
