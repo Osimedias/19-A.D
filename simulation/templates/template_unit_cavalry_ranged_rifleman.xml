@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged">
+  <Attack>
+    <Ranged>
+      <Damage>
+        <Hack>72.0</Hack>
+        <Pierce>76.0</Pierce>
+        <Crush>32.5</Crush>
+      </Damage>
+      <MaxRange>85.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PrepareTime>660</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
+      <Projectile>
+        <Speed>350.0</Speed>
+        <Gravity>39.81</Gravity>
+        <Spread>6.0</Spread>
+        <ImpactActorName>props/units/weapons/slingrock.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.1</ImpactAnimationLifetime>
+      </Projectile>
+      <Splash>
+        <Shape>Linear</Shape>
+        <Range>6</Range>
+        <FriendlyFire>true</FriendlyFire>
+        <Damage>
+          <Hack>15.0</Hack>
+          <Pierce>25.0</Pierce>
+          <Crush>0.0</Crush>
+        </Damage>
+      </Splash>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <wood>50</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>350</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Gunpownder</VisibleClasses>
+    <GenericName>Cavalry Dragon</GenericName>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/musket.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+</Entity>

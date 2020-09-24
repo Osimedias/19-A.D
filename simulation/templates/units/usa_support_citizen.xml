@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_citizen">
   <Identity>
-    <Civ>mex</Civ>
+    <Civ>usa</Civ>
     <SpecificName>US Settler</SpecificName>
     <GenericName>Settler</GenericName>
     <Icon>units/iber_support_citizen.png</Icon>

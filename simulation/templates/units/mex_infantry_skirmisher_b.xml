@@ -3,11 +3,15 @@
   <Identity>
     <Civ>mex</Civ>
     <GenericName>Skirmisher</GenericName>
+    <Phenotype datatype="tokens">
+	  female
+	  male
+    </Phenotype>
     <SpecificName>Insurgente</SpecificName>
     <Icon>units/union/infantry_rifleman_ranged_b.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/mexican/infantry_ranged_guerrilla.xml</Actor>
+    <Actor>units/mexican/infantry_ranged_skirmisher_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

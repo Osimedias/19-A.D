@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/horse_celtic.dae</mesh>
+      <props>
+        <prop actor="units/spain/cavalry_rifleman_r.xml" attachpoint="rider"/>
+        <prop actor="props/horse/cav_blanket_rifleman.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_rein_rifleman.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="quadraped/horse/black.xml" frequency="1" name="black"/>
+    <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
+    <variant file="quadraped/horse/beige.xml" frequency="1" name="beige"/>
+  </group>
+  <group>
+    <variant file="quadraped/base_horse_rifle.xml" name="Rifleman-Horse" frequency="1"/>
+    <variant file="quadraped/base_horse_death.xml"/>
+    <variant file="quadraped/base_horse_run.xml"/>
+  </group>
+  <material>no_trans_parallax_spec.xml</material>
+</actor>

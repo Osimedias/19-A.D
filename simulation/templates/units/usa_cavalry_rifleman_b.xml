@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_rifleman">
+  <Footprint>
+    <Height>7.5</Height>
+  </Footprint>
+  <Identity>
+    <Civ>usa</Civ>
+    <SelectionGroupName>units/ptol_cavalry_archer</SelectionGroupName>
+    <GenericName>Private Mounted Rifleman</GenericName>
+    <SpecificName>Private Mounted Rifleman</SpecificName>
+    <Icon>units/ptol_camel_archer.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <StatusBars>
+    <HeightOffset>8.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>units/union/cavalry_rifleman_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_citizen_male">
+  <Identity>
+    <Civ>spain</Civ>
+    <GenericName>Settler</GenericName>
+    <SpecificName>Colono</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/spain/citizen_male.xml</Actor>
+  </VisualActor>
+</Entity>

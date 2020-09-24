@@ -10,6 +10,12 @@
       <MaxRange>60</MaxRange>
       <PrepareTime>640</PrepareTime>
       <RepeatTime>4000</RepeatTime>
+      <Bonuses>
+          <BonusCavMelee>
+            <Classes>Infantry</Classes>
+            <Multiplier>3.0</Multiplier>
+          </BonusCavMelee>
+      </Bonuses>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <Projectile>
         <Speed>350.0</Speed>
@@ -19,12 +25,12 @@
       </Projectile>
       <Splash>
         <Shape>Linear</Shape>
-        <Range>5</Range>
+        <Range>6</Range>
         <FriendlyFire>true</FriendlyFire>
         <Damage>
-          <Hack>0.0</Hack>
+          <Hack>1.0</Hack>
           <Pierce>20.0</Pierce>
-          <Crush>0.0</Crush>
+          <Crush>55.0</Crush>
         </Damage>
       </Splash>
     </Ranged>
@@ -44,6 +50,7 @@
     <Lang>greek</Lang>
     <GenericName>Skirmisher</GenericName>
     <Icon>units/union/infantry_rifleman_ranged_b.png</Icon>
+    <Tooltip>God against other Infantry</Tooltip>
   </Identity>
   <Decay>
     <Active>false</Active>

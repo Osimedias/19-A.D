@@ -7,6 +7,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/spain/infantry_ranged_guerrilla.xml</Actor>
+    <Actor>units/spain/infantry_ranged_skirmisher.xml</Actor>
   </VisualActor>
 </Entity>

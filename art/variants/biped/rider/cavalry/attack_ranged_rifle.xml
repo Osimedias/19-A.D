@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="attack_ranged">
+  <animations>
+    <animation file="biped/new/rider/cavalry/gunpownder/mounted_rifleman_attack.dae" event="0.80" name="attack_ranged" id="Attack1" load="0.20" speed="110"/>
+    <animation file="biped/new/rider/cavalry/gunpownder/mounted_rifleman_attack.dae" event="0.80" name="attack_ranged" id="Attack2" load="0.20" speed="110"/>
+  </animations>
+</variant>

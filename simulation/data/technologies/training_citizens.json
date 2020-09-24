@@ -1,0 +1,29 @@
+{
+	"genericName": "Population Bum",
+	"specificName": {
+	        "spain":"Colonizacion",
+	        "port":"Colonizacion",
+		"mex": "Gran Inmigrancion",
+		"hai": "Gran Inmigrancion",
+		"bra": "Gran Inmigrancion",
+		"chil": "Gran Inmigrancion",
+		"arge": "Gran Inmigrancion",
+		"uru": "Gran Inmigrancion",
+		"col": "Gran Inmigrancion"
+	},
+	"icon": "wives_festival.png",
+	"description": ".",
+	"cost": {"wood": 200,  "stone": 200},
+	"researchTime": 60,
+	"requirements": {"all": [
+		{"tech": "phase_town" },
+		{"entity": {"class": "House", "number": 5 }}
+	]},
+	"tooltip": "Civilian Citizens -33% training time.",
+	"requirementsTooltip": "Unlocked in Town Phase. Requires 5 houses to be built.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "add": -5}
+	],
+	"affects": ["Citizen Support !Healer !Trader"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -18,7 +18,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="particle/smoke_light.xml" attachpoint="garrisoned"/>
+        <prop actor="particle/smoke_light.xml" attachpoint="smoke_02"/>
       </props>
     </variant>
   </group>

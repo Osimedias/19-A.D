@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="Base" frequency="1">
+  <animations>
+    <animation file="biped/rider/cavalry/generic/idle_shield_ready_01.dae" name="Idle" speed="50"/>
+    <animation file="biped/rider/cavalry/generic/idle_shield_ready_02.dae" name="Walk" speed="20"/>
+    <animation file="biped/rider/cavalry/generic/idle_shield_ready_03.dae" name="run" speed="30"/>
+    <animation event="0.16" file="biped/new/rider/cavalry/gunpownder/mounted_rifleman_attack.dae" name="attack_ranged" id="attack1" speed="10"/>
+  </animations>
+</variant>

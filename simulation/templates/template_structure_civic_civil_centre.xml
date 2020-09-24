@@ -95,6 +95,8 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_citizen
+      units/{civ}_support_slave
+      units/{civ}_support_miner
     </Entities>
     <Technologies datatype="tokens">
       phase_town_{civ}

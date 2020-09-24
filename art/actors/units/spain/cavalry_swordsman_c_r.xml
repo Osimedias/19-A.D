@@ -7,8 +7,10 @@
       <props>
         <prop actor="props/units/helmets/realista_hat.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/spatha.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/saber.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/quivers/union_rucksack.xml" attachpoint="back"/>
+        <prop actor="props/units/shoulders_plates/officer_shoulder_plate_l.xml" attachpoint="shoulderpad_L"/>
+        <prop actor="props/units/shoulders_plates/officer_shoulder_plate_r.xml" attachpoint="shoulderpad_R"/>
       </props>
       <textures>
         <texture file="skeletal/SP_uniform_infantry_realista.png" name="normTex"/>

@@ -42,7 +42,8 @@
       units/{civ}_cavalry_spearman_b
       units/{civ}_cavalry_javelineer_b
       units/{civ}_cavalry_archer_b
-      units/{civ}_cavalry_dragun_b
+      units/{civ}_cavalry_rifleman_b
+      units/{civ}_cavalry_skirmisher_b
       units/{civ}_champion_cavalry
     </Entities>
     <Technologies datatype="tokens">

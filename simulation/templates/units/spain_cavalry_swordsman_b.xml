@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Identity>
-    <Civ>mex</Civ>
+    <Civ>spain</Civ>
     <SelectionGroupName>units/spain_cavalry_swordsman_b</SelectionGroupName>
     <SpecificName>Husar</SpecificName>
     <GenericName>Husar</GenericName>

@@ -4,7 +4,7 @@
     <Ranged>
       <Damage>
         <Hack>0.0</Hack>
-        <Pierce>71.0</Pierce>
+        <Pierce>60.0</Pierce>
         <Crush>0.0</Crush>
       </Damage>
       <MaxRange>60</MaxRange>

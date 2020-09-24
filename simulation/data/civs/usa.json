@@ -1,7 +1,7 @@
 {
 	"Code": "usa",
 	"Culture": "usa",
-	"Name": "USA",
+	"Name": "Thirteen Colonies",
 	"Emblem": "session/portraits/emblems/union.png",
 	"History": ".",
 	"Music":[],
@@ -49,16 +49,19 @@
 	],
 	"AINames":
 	[
-		"George Washington",
-		"Benedict Arnold",
-		"Nathanael Greene",
-		"Benjamin Lincoln",
-		"Richard Montgomery",
-		"Tadeusz Kosciuszko",
-		"Kazimierz Pulaski",
-		"Horatio Gates",
-		"Friedrich Wilhelm von Steuben",
-		"Daniel Morgan"
+		"Massachusetts",
+		"Nuevo Hampshire",
+		"Rhode Island",
+		"New England",
+		"Connecticut",
+		"New York",
+		"Pensilvania",
+		"New Jersey",
+		"Delawere",
+		"Maryland",
+		"Virginia",
+		"Carolina",
+		"Georgia"
 	],
 	"SkirmishReplacements":
 	{},

@@ -18,6 +18,14 @@
     </variant>
   </group>
   <group>
+    <variant frequency="2" name="Huipil">
+      <mesh>skeletal/new/f_dress_huipil_a.dae</mesh>
+      <textures>
+        <texture file="skeletal/mex_fem_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
     <!-- In this group, defined overloads for "Idle", "Walk" and "Run" -->
     <variant file="biped/female_base_walk.xml"/>
     <variant file="biped/female_carry_food.xml"/>
@@ -25,14 +33,14 @@
     <variant file="biped/female_carry_wood.xml"/>
     <variant file="biped/female_carry_stone.xml"/>
     <variant file="biped/female_carry_metal.xml"/>
-	<variant file="biped/approach_tree.xml"/>
-	<variant file="biped/approach_grain.xml"/>
-	<variant file="biped/approach_fruit.xml"/>
-	<variant file="biped/approach_meat.xml"/>
-	<variant file="biped/approach_rock.xml"/>
-	<variant file="biped/approach_ore.xml"/>
-	<variant file="biped/approach_ruins.xml"/>
-	<variant file="biped/approach_praise.xml"/>
+    <variant file="biped/approach_tree.xml"/>
+    <variant file="biped/approach_grain.xml"/>
+    <variant file="biped/approach_fruit.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_rock.xml"/>
+    <variant file="biped/approach_ore.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
     <!-- In this group, define overloads for other animation types, since they presumably do not collide with each other -->

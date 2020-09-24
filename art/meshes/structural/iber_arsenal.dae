@@ -3,24 +3,24 @@
   <asset>
     <contributor>
       <author>Blender User</author>
-      <authoring_tool>Blender 2.90.0 commit date:2020-08-31, commit time:11:26, hash:0330d1af29c0</authoring_tool>
+      <authoring_tool>Blender 2.90.1 commit date:2020-09-23, commit time:06:43, hash:3e85bb34d0d7</authoring_tool>
     </contributor>
-    <created>2020-09-05T20:41:05</created>
-    <modified>2020-09-05T20:41:05</modified>
+    <created>2020-09-24T01:14:49</created>
+    <modified>2020-09-24T01:14:49</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
-    <effect id="Materiais_004-effect">
+    <effect id="Iberoamerican-effect">
       <profile_COMMON>
-        <newparam sid="iber_arsenal_ao-surface">
+        <newparam sid="iberoamerica_struct_png-surface">
           <surface type="2D">
-            <init_from>iber_arsenal_ao</init_from>
+            <init_from>iberoamerica_struct_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="iber_arsenal_ao-sampler">
+        <newparam sid="iberoamerica_struct_png-sampler">
           <sampler2D>
-            <source>iber_arsenal_ao-surface</source>
+            <source>iberoamerica_struct_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,10 +29,10 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="iber_arsenal_ao-sampler" texcoord="Bake"/>
+              <texture texture="iberoamerica_struct_png-sampler" texcoord="Bake"/>
             </diffuse>
             <index_of_refraction>
-              <float sid="ior">1</float>
+              <float sid="ior">1.45</float>
             </index_of_refraction>
           </lambert>
         </technique>
@@ -40,13 +40,13 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="iber_arsenal_ao" name="iber_arsenal_ao">
-      <init_from>/home/saul/Escritorio/iber_arsenal_ao.png</init_from>
+    <image id="iberoamerica_struct_png" name="iberoamerica_struct_png">
+      <init_from>/home/saul/.local/share/0ad/mods/19-A.D/art/textures/skins/structural/iberoamerica_struct.png</init_from>
     </image>
   </library_images>
   <library_materials>
-    <material id="Materiais_004-material" name="Materiais_004">
-      <instance_effect url="#Materiais_004-effect"/>
+    <material id="Iberoamerican-material" name="Iberoamerican">
+      <instance_effect url="#Iberoamerican-effect"/>
     </material>
   </library_materials>
   <library_geometries>
@@ -93,7 +93,7 @@
         <vertices id="union_arsenal_mesh_001-mesh-vertices">
           <input semantic="POSITION" source="#union_arsenal_mesh_001-mesh-positions"/>
         </vertices>
-        <triangles material="Materiais_004-material" count="534">
+        <triangles material="Iberoamerican-material" count="534">
           <input semantic="VERTEX" source="#union_arsenal_mesh_001-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#union_arsenal_mesh_001-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#union_arsenal_mesh_001-mesh-map-0" offset="2" set="0"/>
@@ -110,7 +110,7 @@
         <instance_geometry url="#union_arsenal_mesh_001-mesh" name="IberArsenal">
           <bind_material>
             <technique_common>
-              <instance_material symbol="Materiais_004-material" target="#Materiais_004-material">
+              <instance_material symbol="Iberoamerican-material" target="#Iberoamerican-material">
                 <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
                 <bind_vertex_input semantic="Bake" input_semantic="TEXCOORD" input_set="1"/>
               </instance_material>
@@ -119,6 +119,12 @@
         </instance_geometry>
         <node id="prop_garrisoned" name="prop_garrisoned" type="NODE">
           <matrix sid="transform">1 0 0 9.926303 0 1 0 -4.333971 0 0 1 15.2823 0 0 0 1</matrix>
+        </node>
+        <node id="prop_smoke_01" name="prop_smoke_01" type="NODE">
+          <matrix sid="transform">1 0 0 7.022972 0 1 0 -2.934569 0 0 1 9.911354 0 0 0 1</matrix>
+        </node>
+        <node id="prop_smoke_02" name="prop_smoke_02" type="NODE">
+          <matrix sid="transform">1 0 0 7.022972 0 1 0 5.445168 0 0 1 9.911354 0 0 0 1</matrix>
         </node>
       </node>
     </visual_scene>

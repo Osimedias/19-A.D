@@ -1,0 +1,58 @@
+{
+	"Code": "uk",
+	"Culture": "british",
+	"Name": "British",
+	"Emblem": "session/portraits/emblems/uk.png",
+	"History": ".",
+	"Music":[],
+	"Factions":
+	[],
+	"CivBonuses":
+	[],
+	"TeamBonuses":
+	[],
+	"Structures":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/rome_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/uk_civil_centre"
+		},
+		{
+			"Template": "units/uk_support_citizen",
+			"Count": 5
+		},
+		{
+			"Template": "units/uk_cavalry_swordsman_b"
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line"
+	],
+	"AINames":
+	[
+		"England",
+		"Ireland",
+		"Rhode Island",
+		"Scotland",
+		"Wales"
+	],
+	"SkirmishReplacements":
+	{},
+	"SelectableInGameSetup": true
+}
