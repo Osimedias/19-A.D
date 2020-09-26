@@ -5,8 +5,7 @@
   </Health>
   <Identity>
     <Civ>uk</Civ>
-    <GenericName>Skirmisher</GenericName>
-    <SpecificName>Green Coat</SpecificName>
+    <SpecificName>Green Jacket</SpecificName>
     <Icon>units/union/infantry_rifleman_ranged_b.png</Icon>
   </Identity>
   <Promotion disable=""/>

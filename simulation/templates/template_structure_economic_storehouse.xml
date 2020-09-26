@@ -60,7 +60,6 @@
       gather_capacity_carts
     </Technologies>
   </ProductionQueue>
-  <RallyPoint disable=""/>
   <ResourceDropsite>
     <Types>wood stone metal</Types>
     <Sharable>true</Sharable>

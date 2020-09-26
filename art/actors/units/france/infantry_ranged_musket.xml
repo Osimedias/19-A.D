@@ -3,19 +3,21 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_pants_sleeves_zuvao.dae</mesh>
+      <mesh>skeletal/new/m_pants_sleeves_coat.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/realista_hat.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/mexican_solider_hat.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/rifle.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/quivers/union_rucksack.xml" attachpoint="back"/>
         <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
+        <prop actor="props/units/shoulders_plates/france_officer_shoulder_plate_l.xml" attachpoint="shoulderpad_L"/>
+        <prop actor="props/units/shoulders_plates/france_officer_shoulder_plate_r.xml" attachpoint="shoulderpad_R"/>
       </props>
       <textures>
-        <texture file="skeletal/france_uniform_zuavo.png" name="normTex"/>
-        <texture file="skeletal/france_uniform_zuavo.png" name="baseTex"/>
-        <texture file="skeletal/france_uniform_zuavo.png" name="specTex"/>
+        <texture file="skeletal/FRA_uniform_infantry.png" name="normTex"/>
+        <texture file="skeletal/FRA_uniform_infantry.png" name="baseTex"/>
+        <texture file="skeletal/FRA_uniform_infantry.png" name="specTex"/>
       </textures>
     </variant>
   </group>

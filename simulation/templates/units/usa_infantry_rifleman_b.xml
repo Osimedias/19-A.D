@@ -5,8 +5,7 @@
   </Health>
   <Identity>
     <Civ>usa</Civ>
-    <GenericName>Rifleman Infantry</GenericName>
-    <SpecificName>Private Infantry</SpecificName>
+    <SpecificName>Minuteman</SpecificName>
     <Icon>units/usa_private.png</Icon>
   </Identity>
   <Promotion disable=""/>

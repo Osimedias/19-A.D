@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_citizen">
+  <Identity>
+    <Civ>france</Civ>
+    <SpecificName>Coureur des bois</SpecificName>
+    <GenericName>Runner of the woods</GenericName>
+    <Icon>units/iber_support_citizen.png</Icon>
+    <SelectionGroupName>units/{civ}_support_citizen</SelectionGroupName>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/france/citizen_coureur_des_bois.xml</Actor>
+  </VisualActor>
+</Entity>

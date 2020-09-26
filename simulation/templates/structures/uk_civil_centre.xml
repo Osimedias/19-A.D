@@ -4,13 +4,6 @@
     <Civ>uk</Civ>
     <SpecificName>Colonial Hall</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_infantry_rifleman_ranged_b
-      units/{civ}_infantry_skirmisher_ranged_b
-      units/{civ}_infantry_spearman_b
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/british/civic_center.xml</Actor>
   </VisualActor>

@@ -6,7 +6,7 @@
     <Icon>units/cart_siege_ballista_packed.png</Icon>
   </Identity>
   <Pack>
-    <Entity>units/mex_artillery_falconet_unpacked</Entity>
+    <Entity>units/usa_artillery_falconet_unpacked</Entity>
     <State>packed</State>
   </Pack>
   <VisualActor>

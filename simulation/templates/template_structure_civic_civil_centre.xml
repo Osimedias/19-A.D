@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
   <AlertRaiser>
-    <List datatype="tokens">FemaleCitizen</List>
+    <List datatype="tokens">Citizen</List>
     <RaiseAlertRange>140</RaiseAlertRange>
     <EndOfAlertRange>190</EndOfAlertRange>
     <SearchRange>100</SearchRange>
@@ -135,7 +135,7 @@
   </Sound>
   <TerritoryInfluence>
     <Root>true</Root>
-    <Radius>140</Radius>
+    <Radius>80</Radius>
     <Weight>10000</Weight>
   </TerritoryInfluence>
   <Vision>

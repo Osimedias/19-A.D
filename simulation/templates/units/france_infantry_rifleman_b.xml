@@ -5,7 +5,6 @@
   </Health>
   <Identity>
     <Civ>frace</Civ>
-    <GenericName>Rifleman Infantry</GenericName>
     <SpecificName>Zuvao</SpecificName>
     <Icon>units/usa_private.png</Icon>
   </Identity>

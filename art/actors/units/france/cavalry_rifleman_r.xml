@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_pants_sleeves.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/mexican_solider_hat.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/rifle.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
+        <prop actor="props/units/shoulders_plates/france_officer_shoulder_plate_l.xml" attachpoint="shoulderpad_L"/>
+        <prop actor="props/units/shoulders_plates/france_officer_shoulder_plate_r.xml" attachpoint="shoulderpad_R"/>
+      </props>
+      <textures>
+        <texture file="skeletal/FRA_uniform_infantry.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/mounted_rifleman_base.xml" name="Rifleman-Mounted-Base" frequency="1"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/cavalry/attack_ranged_rifle.xml"/>
+    <variant file="biped/rider/promotion_shield.xml" />
+    <variant file="biped/rider/attack_slaughter_shield_celt.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_ranged.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

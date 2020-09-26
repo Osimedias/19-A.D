@@ -4,13 +4,6 @@
     <Civ>spain</Civ>
     <SpecificName>Palacio Virreinal</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_infantry_rifleman_ranged_b
-      units/{civ}_infantry_skirmisher_ranged_b
-      units/{civ}_infantry_spearman_b
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/iberamerican/civic_center.xml</Actor>
   </VisualActor>

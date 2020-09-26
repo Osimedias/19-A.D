@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_pants_sleeves_zuvao.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/zuavo_hat.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/rifle.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/quivers/union_rucksack.xml" attachpoint="back"/>
+        <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="skeletal/france_uniform_zuavo.png" name="normTex"/>
+        <texture file="skeletal/france_uniform_zuavo.png" name="baseTex"/>
+        <texture file="skeletal/france_uniform_zuavo.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rifleman_base.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_parallax.xml</material>
+</actor>

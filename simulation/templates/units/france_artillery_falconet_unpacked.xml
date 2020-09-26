@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/france_artillery_falconet_packed">
+  <Identity>
+    <Icon>units/rome_siege_scorpio.png</Icon>
+  </Identity>
+  <Pack>
+    <Entity>units/france_artillery_falconet_packed</Entity>
+    <State>unpacked</State>
+    <Time>5000</Time>
+  </Pack>
+  <UnitMotion>
+    <WalkSpeed>0.001</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>structures/artillery/falconet.xml</Actor>
+  </VisualActor>
+</Entity>

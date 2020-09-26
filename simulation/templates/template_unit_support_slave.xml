@@ -4,7 +4,6 @@
     <Rate>0.5</Rate>
     <Entities datatype="tokens">
       structures/{civ}_civil_centre
-      structures/{civ}_crannog
       structures/{civ}_military_colony
       structures/{civ}_house
       structures/{civ}_storehouse
@@ -13,17 +12,20 @@
       structures/{civ}_corral
       structures/{civ}_dock
       structures/{civ}_barracks
+      structures/{civ}_stable
       structures/{civ}_arsenal
       structures/{civ}_forge
-      structures/{civ}_temple
+      structures/{civ}_church
       structures/{civ}_market
       structures/{civ}_outpost
       structures/{civ}_sentry_tower
       structures/{civ}_defense_tower
-      structures/{civ}_fortress
+      structures/{civ}_blockhouse
+      structures/{civ}_fort
       structures/wallset_palisade
       structures/{civ}_wallset_siege
       structures/{civ}_wallset_stone
+      structures/{civ}_cathedral
       structures/{civ}_wonder
     </Entities>
   </Builder>
@@ -34,12 +36,11 @@
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>50</metal>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Health>
-    <RegenRate>-0.25</RegenRate>
-    <Unhealable>true</Unhealable>
+    <Max>50</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Slave Worker</VisibleClasses>
