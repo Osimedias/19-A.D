@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/uk_support_citizen">
-  <Cost>
-    <BuildTime>20</BuildTime>
-    <food>100</food>
-  </Cost>
-</Entity>

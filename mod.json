@@ -1,8 +1,8 @@
 {
 	"name": "19-ad",
-	"version": "0.0.0",
-	"label": "Americans",
+	"version": "0.0.1",
+	"label": "Lal",
 	"url": "",
 	"description": "N.",
-	"dependencies": ["0ad>=0.0.24"]
+	"dependencies": ["0ad=0.0.25"]
 }

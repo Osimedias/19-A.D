@@ -1,41 +1,46 @@
 {
 	"Code": "usa",
-	"Culture": "usa",
+	"Culture": "angloamerican",
 	"Name": "Thirteen Colonies",
-	"Emblem": "session/portraits/emblems/union.png",
-	"History": ".",
-	"Music":[],
-	"Factions":
-	[],
-	"CivBonuses":
-	[],
-	"TeamBonuses":
-	[],
-	"Structures":
-	[],
-	"WallSets":
-	[
-		"structures/wallset_palisade",
-		"structures/rome_wallset_stone"
-	],
-	"StartEntities":
-	[
+	"Emblem": "session/portraits/coins/usa.png",
+	"History": "The Thirteen Colonies.",
+	"Music": [
 		{
-			"Template": "structures/usa_civil_centre"
+			"File": "Harvest_Festival.ogg",
+			"Type": "peace"
 		},
 		{
-			"Template": "units/usa_support_citizen",
-			"Count": 5
+			"File": "Forging_a_City-State.ogg",
+			"Type": "peace"
 		},
 		{
-			"Template": "units/usa_support_miner"
+			"File": "Highland_Mist.ogg",
+			"Type": "peace"
 		},
 		{
-			"Template": "units/usa_cavalry_swordsman_b"
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
 		}
 	],
-	"Formations":
-	[
+	"CivBonuses": [
+	],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/euro/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/usa/civil_centre"
+		},
+		{
+			"Template": "units/usa/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/usa/cavalry_rifleman_b"
+		}
+	],
+	"Formations": [
 		"special/formations/null",
 		"special/formations/box",
 		"special/formations/column_closed",
@@ -43,27 +48,31 @@
 		"special/formations/column_open",
 		"special/formations/line_open",
 		"special/formations/flank",
+		"special/formations/battle_line",
 		"special/formations/skirmish",
 		"special/formations/wedge",
-		"special/formations/battle_line"
+		"special/formations/phalanx"
 	],
-	"AINames":
-	[
-		"Massachusetts",
-		"Nuevo Hampshire",
-		"Rhode Island",
-		"New England",
-		"Connecticut",
-		"New York",
-		"Pensilvania",
-		"New Jersey",
-		"Delawere",
-		"Maryland",
-		"Virginia",
-		"Carolina",
-		"Georgia"
+	"AINames": [
+		"Themistocles",
+		"Pericles",
+		"Cimon",
+		"Aristides",
+		"Xenophon",
+		"Hippias",
+		"Cleisthenes",
+		"Thucydides",
+		"Alcibiades",
+		"Miltiades",
+		"Cleon",
+		"Cleophon",
+		"Thrasybulus",
+		"Iphicrates",
+		"Demosthenes"
 	],
-	"SkirmishReplacements":
-	{},
+	"SkirmishReplacements": {
+		"skirmish/units/default_infantry_ranged_b": "units/athen/infantry_slinger_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
+	},
 	"SelectableInGameSetup": true
 }
