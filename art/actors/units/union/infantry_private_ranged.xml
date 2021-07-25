@@ -5,7 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_pants_sleeves.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/realista_hat.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/hat_forage_union.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/rifle.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>

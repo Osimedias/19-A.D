@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.93.1 commit date:2021-06-22, commit time:05:57, hash:1b8d33b18c2f</authoring_tool>
     </contributor>
-    <created>2021-07-04T18:27:42</created>
-    <modified>2021-07-04T18:27:42</modified>
+    <created>2021-07-15T20:44:23</created>
+    <modified>2021-07-15T20:44:23</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -71,6 +71,9 @@
       <node id="Arsenal" name="Arsenal" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#union_arsenal_mesh-mesh" name="Arsenal"/>
+        <node id="prop_garrisoned" name="prop_garrisoned" type="NODE">
+          <matrix sid="transform">1 0 0 9.77894 0 1 0 -4.32336 0 0 1 15.71171 0 0 0 1</matrix>
+        </node>
       </node>
     </visual_scene>
   </library_visual_scenes>
